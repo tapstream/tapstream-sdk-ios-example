@@ -1,0 +1,34 @@
+{
+  "name": "TapstreamIOS",
+  "version": "3.0.0",
+  "summary": "Tapstream marketing analytics.",
+  "homepage": "https://tapstream.com/",
+  "license": "MIT",
+  "authors": {
+    "Michael Zsigmond": "support@tapstream.com"
+  },
+  "source": {
+    "git": "https://github.com/tapstream/tapstream-sdk-ios.git",
+    "tag": "v3.0.0-ios"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": [
+    "tapstream-sdk-ios",
+    "tapstream-sdk-ios/word-of-mouth",
+    "tapstream-sdk-ios/ios-only",
+    "tapstream-sdk-ios/in-app-landers",
+    "tapstream-sdk-ios/universal-links"
+  ],
+  "resources": [
+    "tapstream-sdk-ios/in-app-landers/*.xib",
+    "tapstream-sdk-ios/word-of-mouth/*.xib"
+  ],
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ]
+  }
+}
