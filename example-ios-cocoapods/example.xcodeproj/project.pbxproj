@@ -10,7 +10,7 @@
 		5871B620B2DB08EDFCF50A0A /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB412C2E65F8FEBE8054B26C /* libPods-example.a */; };
 		660FD8461D2D9D9200A05527 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660FD8441D2D9D9200A05527 /* AdSupport.framework */; };
 		660FD8471D2D9D9200A05527 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660FD8451D2D9D9200A05527 /* SafariServices.framework */; };
-		662077D01D64F10A00355F81 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662077CF1D64F10A00355F81 /* Constants.swift */; };
+		662077D01D64F10A00355F81 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662077CF1D64F10A00355F81 /* Globals.swift */; };
 		6665142A1CE663080035D3F5 /* exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666514291CE663080035D3F5 /* exampleUITests.swift */; };
 		66837F351D5A6C0700D01591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66837F2F1D5A6C0700D01591 /* Assets.xcassets */; };
 		66837F361D5A6C0700D01591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66837F311D5A6C0700D01591 /* LaunchScreen.storyboard */; };
@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		660FD8441D2D9D9200A05527 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		660FD8451D2D9D9200A05527 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		662077CF1D64F10A00355F81 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../common/Constants.swift; sourceTree = "<group>"; };
+		662077CF1D64F10A00355F81 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = ../../common/Globals.swift; sourceTree = "<group>"; };
 		666514111CE663080035D3F5 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		666514201CE663080035D3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		666514251CE663080035D3F5 /* exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +111,7 @@
 				66837F2F1D5A6C0700D01591 /* Assets.xcassets */,
 				66837F301D5A6C0700D01591 /* Base.lproj */,
 				66A0A9E11D5938380093D633 /* AppDelegate.swift */,
-				662077CF1D64F10A00355F81 /* Constants.swift */,
+				662077CF1D64F10A00355F81 /* Globals.swift */,
 				66A0A9E21D5938380093D633 /* example-Bridging-Header.h */,
 				66A0A9E31D5938380093D633 /* MainView.xib */,
 				66A0A9E41D5938380093D633 /* ViewController.swift */,
@@ -307,7 +307,7 @@
 			files = (
 				66A0A9E71D5938380093D633 /* ViewController.swift in Sources */,
 				66A0A9E51D5938380093D633 /* AppDelegate.swift in Sources */,
-				662077D01D64F10A00355F81 /* Constants.swift in Sources */,
+				662077D01D64F10A00355F81 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

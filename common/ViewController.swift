@@ -9,7 +9,8 @@
 import UIKit
 import AdSupport
 
-var httpClient : TSHttpClient = TSDefaultHttpClient.httpClient(with:Constants.config) as! TSHttpClient
+
+var httpClient : TSHttpClient = TSDefaultHttpClient.httpClient(with:Globals.config) as! TSHttpClient
 
 class ViewController: UIViewController {
 	// MARK: Properties
@@ -34,20 +35,23 @@ class ViewController: UIViewController {
 	}
 
 	@IBAction func generateConversion(_ sender: AnyObject) {
-		let accountName = Constants.accountName
+		let accountName = Globals.accountName
 
 		self.logMessage("Generating conversion...")
 
 
-		if let hitUrl = URL(string:String(format:"https://api.tapstream.com/%@/hit/", accountName)) {
+		let tsid = Globals.hitSessionId
+		if let hitUrl = URL(string:String(format:"https://api.tapstream.com/%@/hit/?__tsid_override=1&__tsid=%@",
+		                                  accountName,
+		                                  tsid)) {
 			httpClient.request(hitUrl) { (response: TSResponse?) in
 				if response == nil || response!.failed() {
-					self.logMessage("Could not create hit. Ensure Safari Services Framework is present and your default campaign\nredirects to an https url")
+					self.logMessage("Could not create hit.")
 					return
 				}
 				let event = TSEvent(name:"exampleapp-generate-conversion", oneTimeOnly:false)
 				TSTapstream.instance().fire(event)
-				self.logMessage("Created conversion")
+				self.logMessage(hitUrl.absoluteString)
 			}
 		}
 	}
@@ -82,7 +86,7 @@ class ViewController: UIViewController {
 
 	@IBAction func lookupWOMRewards(_ sender: AnyObject) {
 		self.logMessage("Fetching rewards...")
-		let wom = TSTapstream.wordOfMouthController()!
+		let wom = TSTapstream.wordOfMouthController() as! TSWordOfMouthController
 		wom.getRewardList { (response: TSRewardApiResponse?) in
 			if response == nil || response!.failed() {
 				self.logMessage("Reward Request failed!")
@@ -98,7 +102,7 @@ class ViewController: UIViewController {
 	@IBAction func lookupWOMOffer(_ sender: AnyObject) {
 		self.logMessage("Fetching offer...")
 
-		let wom = TSTapstream.wordOfMouthController()!
+		let wom = TSTapstream.wordOfMouthController() as! TSWordOfMouthController
 		wom.getOfferForInsertionPoint("launch") { (resp: TSOfferApiResponse?) in
 			if (resp == nil || resp!.failed()) {
 				self.logMessage("No offer retrieved!")
@@ -133,7 +137,7 @@ class ViewController: UIViewController {
 	}
 
 	@IBAction func testInAppLander(_ sender: AnyObject) {
-		TSTapstream.instance().showLanderIfExists(with: nil)
+		TSTapstream.instance().showLanderIfExists(withDelegate: nil)
 		self.logMessage("Fired showLanderIfExistsWithDelegate")
 	}
 
@@ -142,7 +146,9 @@ class ViewController: UIViewController {
 		self.logMessage("")
 		UserDefaults.standard.setPersistentDomain([:], forName: "__tapstream")
 
-		TSTapstream.create(with: Constants.config)
+		TSTapstream.create(with: Globals.config)
+		Globals.hitSessionId = UUID().uuidString
+		UserDefaults.standard.set(Globals.hitSessionId, forKey: "__tsid_override")
 		//httpClient = TSDefaultHttpClient.httpClientWithConfig(Constants.config) as! TSHttpClient
 
 		self.logMessage("Application state reset")

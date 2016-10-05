@@ -80,11 +80,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "../../../tapstream-sdk-ios/tapstream-sdk-ios/in-app-landers/TSLanderView.xib"
   install_resource "../../../tapstream-sdk-ios/tapstream-sdk-ios/word-of-mouth/TSOfferView.xib"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "../../../tapstream-sdk-ios/tapstream-sdk-ios/in-app-landers/TSLanderView.xib"
   install_resource "../../../tapstream-sdk-ios/tapstream-sdk-ios/word-of-mouth/TSOfferView.xib"
 fi
 

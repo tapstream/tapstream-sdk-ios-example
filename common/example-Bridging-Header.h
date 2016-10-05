@@ -3,3 +3,4 @@
 //
 #import "TapstreamIOS.h"
 #import "TSDefaultHttpClient.h"
+#import "TSWordOfMouth.h"

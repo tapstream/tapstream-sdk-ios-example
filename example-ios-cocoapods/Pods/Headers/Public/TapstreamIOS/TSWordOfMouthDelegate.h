@@ -1,1 +1,1 @@
-../../../../../../tapstream-sdk-ios/tapstream-sdk-ios/TSWordOfMouthDelegate.h
+../../../../../../tapstream-sdk-ios/tapstream-sdk-ios/word-of-mouth/TSWordOfMouthDelegate.h

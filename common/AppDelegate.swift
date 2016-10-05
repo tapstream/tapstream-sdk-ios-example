@@ -21,8 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
 
+		// Initialize stored hit session id
+		if let tsid = UserDefaults.standard.string(forKey:"__tsid_override") {
+			 Globals.hitSessionId = tsid
+		}else {
+			Globals.hitSessionId = UUID.init().uuidString
+			UserDefaults.standard.set(Globals.hitSessionId, forKey:"__tsid_override")
+		}
 
-		TSTapstream.create(with:Constants.config)
+		TSTapstream.create(with:Globals.config)
 		return true;
 	}
 
