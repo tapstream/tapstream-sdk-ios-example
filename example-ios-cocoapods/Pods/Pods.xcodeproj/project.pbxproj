@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015F9562948169F0436F9D22A95DA68F /* TSPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F411974476F466E9B0A49F75D5FD313 /* TSPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09CFD6643FD146DBD0D2E71781A64149 /* TSDefaultRewardStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = E78BD7B4FC378E7C11BE7DC7D2317B7A /* TSDefaultRewardStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18DD72BF6DE75AC99F3C0E34D8311C47 /* TSDefaultCoreListener.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE2B6B3BFEF96989EEB4732498673EB /* TSDefaultCoreListener.m */; };
+		1D0C5218881C3D57E602670065ACF109 /* TSDefaultAppEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E171357B70F2C0CC969263DCAE4E549D /* TSDefaultAppEventSource.m */; };
+		1E371B579D90C04CD41F4C1EBD42FBF0 /* TSTimelineLookupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7C6759C312F6A798E863FB15EC1BCF /* TSTimelineLookupDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2709B2941DA2AADE11E1F8FADE0BE0 /* TSURLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3EE1539AF370E04016B6205728139 /* TSURLBuilder.m */; };
+		218FD741EDC0F9D382B973DA4F04AA65 /* TSTimelineLookupDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A80A52D5E1986795CA8CAEE67512AD9 /* TSTimelineLookupDelegate.m */; };
+		21CADE8688282EE668008DBD8B86DB82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		22A598B4F923E92E40E52945F6173AE6 /* TSDefaultPersistentStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 155045B7E8AF8CD04E7967406B53508E /* TSDefaultPersistentStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24EBE039EB2FE3F5D4914437FD735D33 /* TSRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = EF83AA05B9C7BA6F503E75331DF8C634 /* TSRequestData.m */; };
+		28EF3AE8852A772582DDEFE98515E2FA /* TSHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F97DFE0BD98E74A8908F8335F61B8B /* TSHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA82DDC7926A25DA14BCD036911ED9B /* TSDefaultAppEventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4954F561F09D23500716C8B30603C03C /* TSDefaultAppEventSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7D43E4A587C5B53757B2D632B267A4 /* TSDefaultHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D3C94E2061CF75E6B19A3B4CAD7B9 /* TSDefaultHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC735471EA720B4AF777451CCD35524 /* TSUniversalLinkApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C1986753B2BBE5A23005D708E0CF2A /* TSUniversalLinkApiResponse.m */; };
+		2FADE87EB05700E7250064CB57BBCE1F /* TSDefaultOfferStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD372E6AE08366C28FDCCC7413AFCD3 /* TSDefaultOfferStrategy.m */; };
+		37B25E277AD0635C608072765D0647F6 /* TSError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5345022167D8693F83A1FFF8ED1C4E /* TSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39114220EFCD8869ED89A99721DD3B80 /* TSURLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C1CAC6EC6E4CBBDADCCF33549FF97103 /* TSURLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BC952812B70EC85C193721EE199BCEE /* TSEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 566570FB66AB0ECFEBB7CB01FCFB3518 /* TSEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40E9F998AEFAF342E92207CF358C459C /* TSApi.h in Headers */ = {isa = PBXBuildFile; fileRef = F11C46DFFB3A16AE4CC21C4361A57E12 /* TSApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42170072D476D38D5C3A896C7B892F77 /* TSRewardStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E02E448BBCFD06309071AEB95DAB55 /* TSRewardStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434D6F6A2EC7D0D6178897D37CCF452A /* TSRewardApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DDB322CD403454D31E410926CE8B9D /* TSRewardApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43703BF1AF2C249C3FB3107AB39AC964 /* TSReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A11D14A5F88A9C3B112F800E3E268BE /* TSReward.m */; };
+		43BE5F679776ABF025A426D500B5BC75 /* TSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9475689986B848DF4970A43EE90366 /* TSError.m */; };
+		45A540E404142F249BE7D6B5AD90C72D /* TSDefaultFireEventStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA13772204FD7F75E80A505420D532E /* TSDefaultFireEventStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F9DF6D8EC2540F3B3335D920EBA4CD /* TSTimelineApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376182CDFF14338CE95A2FD6CF13083 /* TSTimelineApiResponse.m */; };
+		4E88CCC8F747088C25DB57319BB37DEA /* TSDefaultPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF0329E3B46957E18DF8C5585C114ED /* TSDefaultPlatform.m */; };
+		4ECE73F7082C11AD1C554EA41438E58F /* TapstreamMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E20D72E40871A5E26E7AE7E0A60906 /* TapstreamMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9C9E6F5D2B145E93C9D4C69AC0D402 /* TSTapstream.m in Sources */ = {isa = PBXBuildFile; fileRef = EE077C482E6E25CE62977A46AA73BC0E /* TSTapstream.m */; };
+		5180C1207376B7DF4576179768F61C11 /* TSIOSUniversalLinkDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D5CBC0C4BC4A628B839C85C7F31BA8 /* TSIOSUniversalLinkDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52A13F6552234321BED08AD729855875 /* TSOfferStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = B592287FEE2168D287E78EB8766E66BF /* TSOfferStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559ABCEDE52C3F018662CC231EBC77CC /* TapstreamIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D33424F66BF9530F3FE5920312313B6 /* TapstreamIOS-dummy.m */; };
+		55A51353969C7FE062041AFF1329272B /* TSDefaultPersistentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E53BAA177C8495B2DE7EF984DBEE6 /* TSDefaultPersistentStorage.m */; };
+		55D55D8DEF581003546BA08DB9249F3C /* TSPersistentStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D12A6BB6EF5E65B51362DA0EB872B077 /* TSPersistentStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		577285B17B98B7C48008A6E67B4A381C /* TSCoreListener.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CD0D80B95D25C1AE971F47FEDBD54 /* TSCoreListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582099F065998C3C7DC058AAC3AEA2F0 /* TSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CCFC68C7128D4F6C737786841E671D /* TSLogging.m */; };
+		69E114DC4C3C00E60BD1D9B61199A1C2 /* TSRewardApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E57D8456AB359202691A3EE390B7AFC /* TSRewardApiResponse.m */; };
+		6F9FAE729B5F877B3709DAB88CDEA380 /* TSWordOfMouth.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EEF6D7ED5D512B66E3FD43DE54B925 /* TSWordOfMouth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710F06917E25843E85912E7D03C59016 /* TSURLEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E56BC4B5A7A0E1D68A853AE22D9060 /* TSURLEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75EB40F17568AA6C5D3180C841480BED /* TSOfferApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C322D7C2EEFB2CE65DFB3D7F053762 /* TSOfferApiResponse.m */; };
+		78DA60BFA37BA05D68F196235F0DE10B /* TSTapstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B00BD754B39C53386C6E1C4D1B1E5F2 /* TSTapstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80051C0E63EEC9B67D258E8967CFEBD4 /* TSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = D78678DAD2F13D9D7A0A33D5EBDF5677 /* TSConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85023E29F60CD7A72283058ADF74E411 /* TSFireEventStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 55871D5971B759F85AB188891623F2DB /* TSFireEventStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		870B5BDC8BFD20C063D1FFF95A18DF4F /* TSRequestData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEC372A8E63BCAD7CF696102744ABC6 /* TSRequestData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0A6A34BE9E1A5D0BBF1A75365418ED /* TapstreamIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 687257495C829F1FD8614D0A5136490E /* TapstreamIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C446A804879A045CF7D070C271A5BDC /* TSDefaultCoreListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A360279A59430EF68A196CE42FD5FD /* TSDefaultCoreListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E62EF7FEECB68EF558497839606473A /* TSIOSStartupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 481B9B90C69AD9700E2BD3A5172CF234 /* TSIOSStartupDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99434EF37B8DAB01C310F5865AE6557E /* TSFireEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A376C5D376B4E7ED6C4899A31C06CE78 /* TSFireEventDelegate.m */; };
+		99C4ADA93018C2DF8A8E3DA53D7B8E20 /* TSLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EC2583D711106A238D930A2986FD30 /* TSLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA62C365D23B303CFD797BC5BCB881B /* TSOfferApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFAE27DFCFDC3F57D068D618C379633 /* TSOfferApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F04FD6CF74A08FE25EE2FF75E2F9289 /* TSStartupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F03C136102DA97F75F8C34CCB4A2B14 /* TSStartupDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F11920AC8B147180C4B6864DD071467 /* TSURLEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF6C4A6672E27FDFF9A063EDBAB21F /* TSURLEncoder.m */; };
+		A4E2E49D33F652C5B79EDF08383EBFA3 /* TSOfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82110EE523372F5560B4B811E28F6630 /* TSOfferViewController.m */; };
+		A69B19FB683CEAD1CF547D1490E3E250 /* TSIOSStartupDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EEC6889F73C5902BD14536AE7BBD8F /* TSIOSStartupDelegate.m */; };
+		A9D7E45ADAAF7795FB8009716792A325 /* TSFireEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B84B55CEFE25300BB2D6AFA9B6FB9484 /* TSFireEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B140A765EE3546C0DF4416D848930EEA /* TSIOSFireEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E50194139FEA9DD053C0352DEE6EDD8 /* TSIOSFireEventDelegate.m */; };
+		B2EC4119C19D7C85C0980B60264737C6 /* TSOffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BCA46E7465C932670C384ED1432619 /* TSOffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39B1CC2BDC9876A223B0B662FC85004 /* TSDefaultFireEventStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DE696D69E83A00C55F74887AF607B1 /* TSDefaultFireEventStrategy.m */; };
+		B53D45965D38452C76EFB336B5496D29 /* TSDefaultHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FD75CF8387165DE7C0059A8BFF0592 /* TSDefaultHttpClient.m */; };
+		B861B487A5D4FCB2E49A091AD0543025 /* TSUniversalLinkApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B011042E9875F117267330D93C7F3B /* TSUniversalLinkApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA890C56C1BA5852FD62ED38E0B22A1 /* TSReward.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD1DA38E943ECDA6999ADCDCC35BAC9 /* TSReward.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDCF618262087A5AD17609641FB49A9E /* TSDefaultRewardStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6BEF4E967A49D87BF93B33C0CB24F3 /* TSDefaultRewardStrategy.m */; };
+		C09EA9E4A89B382BB6C9C9B713649550 /* TSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC8DB6DAFDD7699A5696B99166854 /* TSConfig.m */; };
+		CB3A880F51FAC708A8AE5F2BD55D5E31 /* TSWordOfMouthController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2329B036F678CEFE8EF23D002F43EAB1 /* TSWordOfMouthController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0382A3076E922C3E441C84A37CF436D /* TSOfferViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 375EB2C659D883A353AC999602FF9EB3 /* TSOfferViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D269ECE4C5D46E763C74E98AB5373AE1 /* TSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9F289F5152AB2D6856EDB86BD0AAD4 /* TSResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D26C7EA130B032FED94ECA4F77BAB4ED /* TSLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 828DCF299573BFA35D41CD174F563E2B /* TSLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52320791176B42DBA639AD601890B75 /* TSOffer.m in Sources */ = {isa = PBXBuildFile; fileRef = B53F11DD40B7579837A99247DAD1700C /* TSOffer.m */; };
+		D5F511045FD7C71FF287BE120F6DD1A1 /* TSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CF771E7043513C54C2285C7909FD70F7 /* TSResponse.m */; };
+		D6E67CC30A303DFDC98EF194A28E0255 /* Pods-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B676285BC21BDD6279EE7C70A6A2114E /* Pods-example-dummy.m */; };
+		D714D2168A255CABA45A92DDC410CCD0 /* TSIOSFireEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0533062494B8C451228928723852B6F3 /* TSIOSFireEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E080F1FC6824A7024160A5F5C0D176F4 /* TSDefaultPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 512B6139F8FF858F19006B9C5443AC10 /* TSDefaultPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2B46149261515F7F33874453B1E7CA2 /* TSTimelineApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF39625BDAE471B8BFB12B532DAE615 /* TSTimelineApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2F787174E4FEA9DE81C0335294AD096 /* TSWordOfMouthController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AD13FF698B19416F3D0B2F1118DC95 /* TSWordOfMouthController.m */; };
+		E7F9D4697AD2560119277C29108C17F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E917FF02BEB3FD66937EEB97C0104B90 /* TSDefaultOfferStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = BA31A3D3D8ED771537E90253FD83FB09 /* TSDefaultOfferStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5BAB4B91495FB88C5F58993AE09AA9 /* TSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B938BF5F6DD799780818562F1547841 /* TSEvent.m */; };
+		ECD28575913BB5E2E8507EB0325F7824 /* TSDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0590AE4514505A76681CCDE73C064A /* TSDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0A98C17BA880552C101FBFE2459B4AA /* TSWordOfMouthDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A74BF7B4555AD92A822DCE85DECEE2E2 /* TSWordOfMouthDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3EED4B113201531B43B2D19C68456B0 /* TSShowLanderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF5B733D35F23A43039105099DDEE2F /* TSShowLanderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DFEEAA514790B1477F4829CC68932D /* TSStartupDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575734A607EB6C15716061C2D511AB4 /* TSStartupDelegate.m */; };
+		F4F5EE22BAC94C76C87097953991B83B /* TSAppEventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E7C50613D75169C3BBA6DCE3616FE5 /* TSAppEventSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7178D77BCBC31A3618EE6DA0546AA0D /* TSIOSUniversalLinkDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1D6F0C9C4700CD240E10487EB621F /* TSIOSUniversalLinkDelegate.m */; };
+		F7194829E363E9B3943107803E4D41B6 /* TSFallable.h in Headers */ = {isa = PBXBuildFile; fileRef = A53B24C239EC51538A61F4DC5290D154 /* TSFallable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73D22D881D4708D5C21C25164E78BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFE2D64B892CAAF355BC8611797F119E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E463577B1857B7F93128F413ECDACED5;
+			remoteInfo = TapstreamIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0376182CDFF14338CE95A2FD6CF13083 /* TSTimelineApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTimelineApiResponse.m; path = "tapstream-sdk-ios/TSTimelineApiResponse.m"; sourceTree = "<group>"; };
+		0533062494B8C451228928723852B6F3 /* TSIOSFireEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSIOSFireEventDelegate.h; path = "tapstream-sdk-ios/ios-only/TSIOSFireEventDelegate.h"; sourceTree = "<group>"; };
+		155045B7E8AF8CD04E7967406B53508E /* TSDefaultPersistentStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultPersistentStorage.h; path = "tapstream-sdk-ios/TSDefaultPersistentStorage.h"; sourceTree = "<group>"; };
+		18A360279A59430EF68A196CE42FD5FD /* TSDefaultCoreListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultCoreListener.h; path = "tapstream-sdk-ios/TSDefaultCoreListener.h"; sourceTree = "<group>"; };
+		2329B036F678CEFE8EF23D002F43EAB1 /* TSWordOfMouthController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSWordOfMouthController.h; path = "tapstream-sdk-ios/word-of-mouth/TSWordOfMouthController.h"; sourceTree = "<group>"; };
+		24E7C50613D75169C3BBA6DCE3616FE5 /* TSAppEventSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSAppEventSource.h; path = "tapstream-sdk-ios/TSAppEventSource.h"; sourceTree = "<group>"; };
+		294567134DC4BA131814B663B2503D67 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.release.xcconfig"; sourceTree = "<group>"; };
+		29E20D72E40871A5E26E7AE7E0A60906 /* TapstreamMac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TapstreamMac.h; path = "tapstream-sdk-ios/TapstreamMac.h"; sourceTree = "<group>"; };
+		2BE3EE1539AF370E04016B6205728139 /* TSURLBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSURLBuilder.m; path = "tapstream-sdk-ios/TSURLBuilder.m"; sourceTree = "<group>"; };
+		2FEC372A8E63BCAD7CF696102744ABC6 /* TSRequestData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSRequestData.h; path = "tapstream-sdk-ios/TSRequestData.h"; sourceTree = "<group>"; };
+		30EEF6D7ED5D512B66E3FD43DE54B925 /* TSWordOfMouth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSWordOfMouth.h; path = "tapstream-sdk-ios/word-of-mouth/TSWordOfMouth.h"; sourceTree = "<group>"; };
+		34D5CBC0C4BC4A628B839C85C7F31BA8 /* TSIOSUniversalLinkDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSIOSUniversalLinkDelegate.h; path = "tapstream-sdk-ios/ios-only/TSIOSUniversalLinkDelegate.h"; sourceTree = "<group>"; };
+		375EB2C659D883A353AC999602FF9EB3 /* TSOfferViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSOfferViewController.h; path = "tapstream-sdk-ios/word-of-mouth/TSOfferViewController.h"; sourceTree = "<group>"; };
+		38EC2583D711106A238D930A2986FD30 /* TSLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSLogLevel.h; path = "tapstream-sdk-ios/TSLogLevel.h"; sourceTree = "<group>"; };
+		3D33424F66BF9530F3FE5920312313B6 /* TapstreamIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapstreamIOS-dummy.m"; sourceTree = "<group>"; };
+		3E57D8456AB359202691A3EE390B7AFC /* TSRewardApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSRewardApiResponse.m; path = "tapstream-sdk-ios/word-of-mouth/TSRewardApiResponse.m"; sourceTree = "<group>"; };
+		3EF5B733D35F23A43039105099DDEE2F /* TSShowLanderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSShowLanderDelegate.h; path = "tapstream-sdk-ios/ios-only/TSShowLanderDelegate.h"; sourceTree = "<group>"; };
+		41AAC8DB6DAFDD7699A5696B99166854 /* TSConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSConfig.m; path = "tapstream-sdk-ios/TSConfig.m"; sourceTree = "<group>"; };
+		427829DF3FF9CB7DAF191077958FE213 /* libTapstreamIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTapstreamIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		481B9B90C69AD9700E2BD3A5172CF234 /* TSIOSStartupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSIOSStartupDelegate.h; path = "tapstream-sdk-ios/ios-only/TSIOSStartupDelegate.h"; sourceTree = "<group>"; };
+		4954F561F09D23500716C8B30603C03C /* TSDefaultAppEventSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultAppEventSource.h; path = "tapstream-sdk-ios/TSDefaultAppEventSource.h"; sourceTree = "<group>"; };
+		512B6139F8FF858F19006B9C5443AC10 /* TSDefaultPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultPlatform.h; path = "tapstream-sdk-ios/TSDefaultPlatform.h"; sourceTree = "<group>"; };
+		52CCFC68C7128D4F6C737786841E671D /* TSLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSLogging.m; path = "tapstream-sdk-ios/TSLogging.m"; sourceTree = "<group>"; };
+		52D87C281A23D672598364DBDF711C81 /* Pods-example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-example-resources.sh"; sourceTree = "<group>"; };
+		54C1986753B2BBE5A23005D708E0CF2A /* TSUniversalLinkApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSUniversalLinkApiResponse.m; path = "tapstream-sdk-ios/TSUniversalLinkApiResponse.m"; sourceTree = "<group>"; };
+		55871D5971B759F85AB188891623F2DB /* TSFireEventStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSFireEventStrategy.h; path = "tapstream-sdk-ios/TSFireEventStrategy.h"; sourceTree = "<group>"; };
+		566570FB66AB0ECFEBB7CB01FCFB3518 /* TSEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSEvent.h; path = "tapstream-sdk-ios/TSEvent.h"; sourceTree = "<group>"; };
+		56C322D7C2EEFB2CE65DFB3D7F053762 /* TSOfferApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSOfferApiResponse.m; path = "tapstream-sdk-ios/word-of-mouth/TSOfferApiResponse.m"; sourceTree = "<group>"; };
+		56DDB322CD403454D31E410926CE8B9D /* TSRewardApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSRewardApiResponse.h; path = "tapstream-sdk-ios/word-of-mouth/TSRewardApiResponse.h"; sourceTree = "<group>"; };
+		59DB1A00EEB9A926C78157A36475FBFD /* Pods-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BC1D6F0C9C4700CD240E10487EB621F /* TSIOSUniversalLinkDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSIOSUniversalLinkDelegate.m; path = "tapstream-sdk-ios/ios-only/TSIOSUniversalLinkDelegate.m"; sourceTree = "<group>"; };
+		5CF0329E3B46957E18DF8C5585C114ED /* TSDefaultPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultPlatform.m; path = "tapstream-sdk-ios/TSDefaultPlatform.m"; sourceTree = "<group>"; };
+		6575734A607EB6C15716061C2D511AB4 /* TSStartupDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSStartupDelegate.m; path = "tapstream-sdk-ios/TSStartupDelegate.m"; sourceTree = "<group>"; };
+		65DE696D69E83A00C55F74887AF607B1 /* TSDefaultFireEventStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultFireEventStrategy.m; path = "tapstream-sdk-ios/TSDefaultFireEventStrategy.m"; sourceTree = "<group>"; };
+		65FD75CF8387165DE7C0059A8BFF0592 /* TSDefaultHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultHttpClient.m; path = "tapstream-sdk-ios/TSDefaultHttpClient.m"; sourceTree = "<group>"; };
+		6844E5258DEE2EBCD177EE294F84918F /* libPods-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687257495C829F1FD8614D0A5136490E /* TapstreamIOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TapstreamIOS.h; path = "tapstream-sdk-ios/ios-only/TapstreamIOS.h"; sourceTree = "<group>"; };
+		6B7C6759C312F6A798E863FB15EC1BCF /* TSTimelineLookupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTimelineLookupDelegate.h; path = "tapstream-sdk-ios/TSTimelineLookupDelegate.h"; sourceTree = "<group>"; };
+		6C0590AE4514505A76681CCDE73C064A /* TSDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefs.h; path = "tapstream-sdk-ios/TSDefs.h"; sourceTree = "<group>"; };
+		6F411974476F466E9B0A49F75D5FD313 /* TSPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSPlatform.h; path = "tapstream-sdk-ios/TSPlatform.h"; sourceTree = "<group>"; };
+		79E02E448BBCFD06309071AEB95DAB55 /* TSRewardStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSRewardStrategy.h; path = "tapstream-sdk-ios/word-of-mouth/TSRewardStrategy.h"; sourceTree = "<group>"; };
+		7A80A52D5E1986795CA8CAEE67512AD9 /* TSTimelineLookupDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTimelineLookupDelegate.m; path = "tapstream-sdk-ios/TSTimelineLookupDelegate.m"; sourceTree = "<group>"; };
+		7B938BF5F6DD799780818562F1547841 /* TSEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSEvent.m; path = "tapstream-sdk-ios/TSEvent.m"; sourceTree = "<group>"; };
+		7B9475689986B848DF4970A43EE90366 /* TSError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSError.m; path = "tapstream-sdk-ios/TSError.m"; sourceTree = "<group>"; };
+		7E50194139FEA9DD053C0352DEE6EDD8 /* TSIOSFireEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSIOSFireEventDelegate.m; path = "tapstream-sdk-ios/ios-only/TSIOSFireEventDelegate.m"; sourceTree = "<group>"; };
+		7F03C136102DA97F75F8C34CCB4A2B14 /* TSStartupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSStartupDelegate.h; path = "tapstream-sdk-ios/TSStartupDelegate.h"; sourceTree = "<group>"; };
+		82110EE523372F5560B4B811E28F6630 /* TSOfferViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSOfferViewController.m; path = "tapstream-sdk-ios/word-of-mouth/TSOfferViewController.m"; sourceTree = "<group>"; };
+		828DCF299573BFA35D41CD174F563E2B /* TSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSLogging.h; path = "tapstream-sdk-ios/TSLogging.h"; sourceTree = "<group>"; };
+		8B1E53BAA177C8495B2DE7EF984DBEE6 /* TSDefaultPersistentStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultPersistentStorage.m; path = "tapstream-sdk-ios/TSDefaultPersistentStorage.m"; sourceTree = "<group>"; };
+		8B6BEF4E967A49D87BF93B33C0CB24F3 /* TSDefaultRewardStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultRewardStrategy.m; path = "tapstream-sdk-ios/word-of-mouth/TSDefaultRewardStrategy.m"; sourceTree = "<group>"; };
+		8BF39625BDAE471B8BFB12B532DAE615 /* TSTimelineApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTimelineApiResponse.h; path = "tapstream-sdk-ios/TSTimelineApiResponse.h"; sourceTree = "<group>"; };
+		8C5345022167D8693F83A1FFF8ED1C4E /* TSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSError.h; path = "tapstream-sdk-ios/TSError.h"; sourceTree = "<group>"; };
+		8C9F289F5152AB2D6856EDB86BD0AAD4 /* TSResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSResponse.h; path = "tapstream-sdk-ios/TSResponse.h"; sourceTree = "<group>"; };
+		8DEF6C4A6672E27FDFF9A063EDBAB21F /* TSURLEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSURLEncoder.m; path = "tapstream-sdk-ios/TSURLEncoder.m"; sourceTree = "<group>"; };
+		8DFAE27DFCFDC3F57D068D618C379633 /* TSOfferApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSOfferApiResponse.h; path = "tapstream-sdk-ios/word-of-mouth/TSOfferApiResponse.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98BCA46E7465C932670C384ED1432619 /* TSOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSOffer.h; path = "tapstream-sdk-ios/word-of-mouth/TSOffer.h"; sourceTree = "<group>"; };
+		9A11D14A5F88A9C3B112F800E3E268BE /* TSReward.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSReward.m; path = "tapstream-sdk-ios/word-of-mouth/TSReward.m"; sourceTree = "<group>"; };
+		9B00BD754B39C53386C6E1C4D1B1E5F2 /* TSTapstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTapstream.h; path = "tapstream-sdk-ios/TSTapstream.h"; sourceTree = "<group>"; };
+		9CA9A2BDD202826752CBEF52261EDF39 /* TSOfferView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TSOfferView.xib; path = "tapstream-sdk-ios/word-of-mouth/TSOfferView.xib"; sourceTree = "<group>"; };
+		9F7D3C94E2061CF75E6B19A3B4CAD7B9 /* TSDefaultHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultHttpClient.h; path = "tapstream-sdk-ios/TSDefaultHttpClient.h"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A376C5D376B4E7ED6C4899A31C06CE78 /* TSFireEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSFireEventDelegate.m; path = "tapstream-sdk-ios/TSFireEventDelegate.m"; sourceTree = "<group>"; };
+		A53B24C239EC51538A61F4DC5290D154 /* TSFallable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSFallable.h; path = "tapstream-sdk-ios/TSFallable.h"; sourceTree = "<group>"; };
+		A6EEC6889F73C5902BD14536AE7BBD8F /* TSIOSStartupDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSIOSStartupDelegate.m; path = "tapstream-sdk-ios/ios-only/TSIOSStartupDelegate.m"; sourceTree = "<group>"; };
+		A74BF7B4555AD92A822DCE85DECEE2E2 /* TSWordOfMouthDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSWordOfMouthDelegate.h; path = "tapstream-sdk-ios/word-of-mouth/TSWordOfMouthDelegate.h"; sourceTree = "<group>"; };
+		A7C1872B725E5664BE5AB2A072CC0AA6 /* TapstreamIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapstreamIOS-prefix.pch"; sourceTree = "<group>"; };
+		ABE2B6B3BFEF96989EEB4732498673EB /* TSDefaultCoreListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultCoreListener.m; path = "tapstream-sdk-ios/TSDefaultCoreListener.m"; sourceTree = "<group>"; };
+		ADD372E6AE08366C28FDCCC7413AFCD3 /* TSDefaultOfferStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultOfferStrategy.m; path = "tapstream-sdk-ios/word-of-mouth/TSDefaultOfferStrategy.m"; sourceTree = "<group>"; };
+		AEA13772204FD7F75E80A505420D532E /* TSDefaultFireEventStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultFireEventStrategy.h; path = "tapstream-sdk-ios/TSDefaultFireEventStrategy.h"; sourceTree = "<group>"; };
+		B1FFB946EBF57F9FA8925412C3E541B9 /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
+		B53F11DD40B7579837A99247DAD1700C /* TSOffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSOffer.m; path = "tapstream-sdk-ios/word-of-mouth/TSOffer.m"; sourceTree = "<group>"; };
+		B592287FEE2168D287E78EB8766E66BF /* TSOfferStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSOfferStrategy.h; path = "tapstream-sdk-ios/word-of-mouth/TSOfferStrategy.h"; sourceTree = "<group>"; };
+		B676285BC21BDD6279EE7C70A6A2114E /* Pods-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-example-dummy.m"; sourceTree = "<group>"; };
+		B84B55CEFE25300BB2D6AFA9B6FB9484 /* TSFireEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSFireEventDelegate.h; path = "tapstream-sdk-ios/TSFireEventDelegate.h"; sourceTree = "<group>"; };
+		BA31A3D3D8ED771537E90253FD83FB09 /* TSDefaultOfferStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultOfferStrategy.h; path = "tapstream-sdk-ios/word-of-mouth/TSDefaultOfferStrategy.h"; sourceTree = "<group>"; };
+		BC9F0D801FC17155EE91BF4BF2686768 /* Pods-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1CAC6EC6E4CBBDADCCF33549FF97103 /* TSURLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSURLBuilder.h; path = "tapstream-sdk-ios/TSURLBuilder.h"; sourceTree = "<group>"; };
+		C52B64BAE6E48E26DB2CA78BB264FC6C /* TapstreamIOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapstreamIOS.xcconfig; sourceTree = "<group>"; };
+		C6AD13FF698B19416F3D0B2F1118DC95 /* TSWordOfMouthController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSWordOfMouthController.m; path = "tapstream-sdk-ios/word-of-mouth/TSWordOfMouthController.m"; sourceTree = "<group>"; };
+		C6E56BC4B5A7A0E1D68A853AE22D9060 /* TSURLEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSURLEncoder.h; path = "tapstream-sdk-ios/TSURLEncoder.h"; sourceTree = "<group>"; };
+		CF771E7043513C54C2285C7909FD70F7 /* TSResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSResponse.m; path = "tapstream-sdk-ios/TSResponse.m"; sourceTree = "<group>"; };
+		D12A6BB6EF5E65B51362DA0EB872B077 /* TSPersistentStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSPersistentStorage.h; path = "tapstream-sdk-ios/TSPersistentStorage.h"; sourceTree = "<group>"; };
+		D1F97DFE0BD98E74A8908F8335F61B8B /* TSHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSHttpClient.h; path = "tapstream-sdk-ios/TSHttpClient.h"; sourceTree = "<group>"; };
+		D762AE59728275FF22816EF509425B98 /* Pods-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-example-frameworks.sh"; sourceTree = "<group>"; };
+		D78678DAD2F13D9D7A0A33D5EBDF5677 /* TSConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSConfig.h; path = "tapstream-sdk-ios/TSConfig.h"; sourceTree = "<group>"; };
+		DC3CD0D80B95D25C1AE971F47FEDBD54 /* TSCoreListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCoreListener.h; path = "tapstream-sdk-ios/TSCoreListener.h"; sourceTree = "<group>"; };
+		E0B011042E9875F117267330D93C7F3B /* TSUniversalLinkApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSUniversalLinkApiResponse.h; path = "tapstream-sdk-ios/TSUniversalLinkApiResponse.h"; sourceTree = "<group>"; };
+		E171357B70F2C0CC969263DCAE4E549D /* TSDefaultAppEventSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultAppEventSource.m; path = "tapstream-sdk-ios/TSDefaultAppEventSource.m"; sourceTree = "<group>"; };
+		E78BD7B4FC378E7C11BE7DC7D2317B7A /* TSDefaultRewardStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultRewardStrategy.h; path = "tapstream-sdk-ios/word-of-mouth/TSDefaultRewardStrategy.h"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EBD1DA38E943ECDA6999ADCDCC35BAC9 /* TSReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSReward.h; path = "tapstream-sdk-ios/word-of-mouth/TSReward.h"; sourceTree = "<group>"; };
+		EE077C482E6E25CE62977A46AA73BC0E /* TSTapstream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTapstream.m; path = "tapstream-sdk-ios/TSTapstream.m"; sourceTree = "<group>"; };
+		EF83AA05B9C7BA6F503E75331DF8C634 /* TSRequestData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSRequestData.m; path = "tapstream-sdk-ios/TSRequestData.m"; sourceTree = "<group>"; };
+		F11C46DFFB3A16AE4CC21C4361A57E12 /* TSApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSApi.h; path = "tapstream-sdk-ios/TSApi.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C64C91B477C0197D3CEBF7EB565707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D22D881D4708D5C21C25164E78BF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8EA219C7FD899A5A1F69A13C0C07017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F9D4697AD2560119277C29108C17F2 /* Foundation.framework in Frameworks */,
+				21CADE8688282EE668008DBD8B86DB82 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E04B1C647A52BD953108341E057AEC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D68CB876C3126199E346F59CB62C0608 /* Pods-example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D629C81DF939441D94F582B6AB2A134 /* TapstreamIOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E297489DC2912A95AD88631DF9E0553 /* Core */,
+				D02DE30FFA556745176EE83656B0D9EF /* Support Files */,
+				D3D0F2CFAE2AA58C08ACC564B5D760AF /* WordOfMouth */,
+			);
+			path = TapstreamIOS;
+			sourceTree = "<group>";
+		};
+		5EC7E09089F70281A63778B03B6121B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6844E5258DEE2EBCD177EE294F84918F /* libPods-example.a */,
+				427829DF3FF9CB7DAF191077958FE213 /* libTapstreamIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644863EE51821BABA906D10EC2384F22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CA9A2BDD202826752CBEF52261EDF39 /* TSOfferView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				83111C9812EA730B03F48E485C83FF39 /* Pods */,
+				5EC7E09089F70281A63778B03B6121B1 /* Products */,
+				2E04B1C647A52BD953108341E057AEC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E297489DC2912A95AD88631DF9E0553 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				687257495C829F1FD8614D0A5136490E /* TapstreamIOS.h */,
+				29E20D72E40871A5E26E7AE7E0A60906 /* TapstreamMac.h */,
+				F11C46DFFB3A16AE4CC21C4361A57E12 /* TSApi.h */,
+				24E7C50613D75169C3BBA6DCE3616FE5 /* TSAppEventSource.h */,
+				D78678DAD2F13D9D7A0A33D5EBDF5677 /* TSConfig.h */,
+				41AAC8DB6DAFDD7699A5696B99166854 /* TSConfig.m */,
+				DC3CD0D80B95D25C1AE971F47FEDBD54 /* TSCoreListener.h */,
+				4954F561F09D23500716C8B30603C03C /* TSDefaultAppEventSource.h */,
+				E171357B70F2C0CC969263DCAE4E549D /* TSDefaultAppEventSource.m */,
+				18A360279A59430EF68A196CE42FD5FD /* TSDefaultCoreListener.h */,
+				ABE2B6B3BFEF96989EEB4732498673EB /* TSDefaultCoreListener.m */,
+				AEA13772204FD7F75E80A505420D532E /* TSDefaultFireEventStrategy.h */,
+				65DE696D69E83A00C55F74887AF607B1 /* TSDefaultFireEventStrategy.m */,
+				9F7D3C94E2061CF75E6B19A3B4CAD7B9 /* TSDefaultHttpClient.h */,
+				65FD75CF8387165DE7C0059A8BFF0592 /* TSDefaultHttpClient.m */,
+				155045B7E8AF8CD04E7967406B53508E /* TSDefaultPersistentStorage.h */,
+				8B1E53BAA177C8495B2DE7EF984DBEE6 /* TSDefaultPersistentStorage.m */,
+				512B6139F8FF858F19006B9C5443AC10 /* TSDefaultPlatform.h */,
+				5CF0329E3B46957E18DF8C5585C114ED /* TSDefaultPlatform.m */,
+				6C0590AE4514505A76681CCDE73C064A /* TSDefs.h */,
+				8C5345022167D8693F83A1FFF8ED1C4E /* TSError.h */,
+				7B9475689986B848DF4970A43EE90366 /* TSError.m */,
+				566570FB66AB0ECFEBB7CB01FCFB3518 /* TSEvent.h */,
+				7B938BF5F6DD799780818562F1547841 /* TSEvent.m */,
+				A53B24C239EC51538A61F4DC5290D154 /* TSFallable.h */,
+				B84B55CEFE25300BB2D6AFA9B6FB9484 /* TSFireEventDelegate.h */,
+				A376C5D376B4E7ED6C4899A31C06CE78 /* TSFireEventDelegate.m */,
+				55871D5971B759F85AB188891623F2DB /* TSFireEventStrategy.h */,
+				D1F97DFE0BD98E74A8908F8335F61B8B /* TSHttpClient.h */,
+				0533062494B8C451228928723852B6F3 /* TSIOSFireEventDelegate.h */,
+				7E50194139FEA9DD053C0352DEE6EDD8 /* TSIOSFireEventDelegate.m */,
+				481B9B90C69AD9700E2BD3A5172CF234 /* TSIOSStartupDelegate.h */,
+				A6EEC6889F73C5902BD14536AE7BBD8F /* TSIOSStartupDelegate.m */,
+				34D5CBC0C4BC4A628B839C85C7F31BA8 /* TSIOSUniversalLinkDelegate.h */,
+				5BC1D6F0C9C4700CD240E10487EB621F /* TSIOSUniversalLinkDelegate.m */,
+				828DCF299573BFA35D41CD174F563E2B /* TSLogging.h */,
+				52CCFC68C7128D4F6C737786841E671D /* TSLogging.m */,
+				38EC2583D711106A238D930A2986FD30 /* TSLogLevel.h */,
+				D12A6BB6EF5E65B51362DA0EB872B077 /* TSPersistentStorage.h */,
+				6F411974476F466E9B0A49F75D5FD313 /* TSPlatform.h */,
+				2FEC372A8E63BCAD7CF696102744ABC6 /* TSRequestData.h */,
+				EF83AA05B9C7BA6F503E75331DF8C634 /* TSRequestData.m */,
+				8C9F289F5152AB2D6856EDB86BD0AAD4 /* TSResponse.h */,
+				CF771E7043513C54C2285C7909FD70F7 /* TSResponse.m */,
+				3EF5B733D35F23A43039105099DDEE2F /* TSShowLanderDelegate.h */,
+				7F03C136102DA97F75F8C34CCB4A2B14 /* TSStartupDelegate.h */,
+				6575734A607EB6C15716061C2D511AB4 /* TSStartupDelegate.m */,
+				9B00BD754B39C53386C6E1C4D1B1E5F2 /* TSTapstream.h */,
+				EE077C482E6E25CE62977A46AA73BC0E /* TSTapstream.m */,
+				8BF39625BDAE471B8BFB12B532DAE615 /* TSTimelineApiResponse.h */,
+				0376182CDFF14338CE95A2FD6CF13083 /* TSTimelineApiResponse.m */,
+				6B7C6759C312F6A798E863FB15EC1BCF /* TSTimelineLookupDelegate.h */,
+				7A80A52D5E1986795CA8CAEE67512AD9 /* TSTimelineLookupDelegate.m */,
+				E0B011042E9875F117267330D93C7F3B /* TSUniversalLinkApiResponse.h */,
+				54C1986753B2BBE5A23005D708E0CF2A /* TSUniversalLinkApiResponse.m */,
+				C1CAC6EC6E4CBBDADCCF33549FF97103 /* TSURLBuilder.h */,
+				2BE3EE1539AF370E04016B6205728139 /* TSURLBuilder.m */,
+				C6E56BC4B5A7A0E1D68A853AE22D9060 /* TSURLEncoder.h */,
+				8DEF6C4A6672E27FDFF9A063EDBAB21F /* TSURLEncoder.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		83111C9812EA730B03F48E485C83FF39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D629C81DF939441D94F582B6AB2A134 /* TapstreamIOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D02DE30FFA556745176EE83656B0D9EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C52B64BAE6E48E26DB2CA78BB264FC6C /* TapstreamIOS.xcconfig */,
+				3D33424F66BF9530F3FE5920312313B6 /* TapstreamIOS-dummy.m */,
+				A7C1872B725E5664BE5AB2A072CC0AA6 /* TapstreamIOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TapstreamIOS";
+			sourceTree = "<group>";
+		};
+		D3D0F2CFAE2AA58C08ACC564B5D760AF /* WordOfMouth */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A3D3D8ED771537E90253FD83FB09 /* TSDefaultOfferStrategy.h */,
+				ADD372E6AE08366C28FDCCC7413AFCD3 /* TSDefaultOfferStrategy.m */,
+				E78BD7B4FC378E7C11BE7DC7D2317B7A /* TSDefaultRewardStrategy.h */,
+				8B6BEF4E967A49D87BF93B33C0CB24F3 /* TSDefaultRewardStrategy.m */,
+				98BCA46E7465C932670C384ED1432619 /* TSOffer.h */,
+				B53F11DD40B7579837A99247DAD1700C /* TSOffer.m */,
+				8DFAE27DFCFDC3F57D068D618C379633 /* TSOfferApiResponse.h */,
+				56C322D7C2EEFB2CE65DFB3D7F053762 /* TSOfferApiResponse.m */,
+				B592287FEE2168D287E78EB8766E66BF /* TSOfferStrategy.h */,
+				375EB2C659D883A353AC999602FF9EB3 /* TSOfferViewController.h */,
+				82110EE523372F5560B4B811E28F6630 /* TSOfferViewController.m */,
+				EBD1DA38E943ECDA6999ADCDCC35BAC9 /* TSReward.h */,
+				9A11D14A5F88A9C3B112F800E3E268BE /* TSReward.m */,
+				56DDB322CD403454D31E410926CE8B9D /* TSRewardApiResponse.h */,
+				3E57D8456AB359202691A3EE390B7AFC /* TSRewardApiResponse.m */,
+				79E02E448BBCFD06309071AEB95DAB55 /* TSRewardStrategy.h */,
+				30EEF6D7ED5D512B66E3FD43DE54B925 /* TSWordOfMouth.h */,
+				2329B036F678CEFE8EF23D002F43EAB1 /* TSWordOfMouthController.h */,
+				C6AD13FF698B19416F3D0B2F1118DC95 /* TSWordOfMouthController.m */,
+				A74BF7B4555AD92A822DCE85DECEE2E2 /* TSWordOfMouthDelegate.h */,
+				644863EE51821BABA906D10EC2384F22 /* Resources */,
+			);
+			name = WordOfMouth;
+			sourceTree = "<group>";
+		};
+		D68CB876C3126199E346F59CB62C0608 /* Pods-example */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F0D801FC17155EE91BF4BF2686768 /* Pods-example-acknowledgements.markdown */,
+				59DB1A00EEB9A926C78157A36475FBFD /* Pods-example-acknowledgements.plist */,
+				B676285BC21BDD6279EE7C70A6A2114E /* Pods-example-dummy.m */,
+				D762AE59728275FF22816EF509425B98 /* Pods-example-frameworks.sh */,
+				52D87C281A23D672598364DBDF711C81 /* Pods-example-resources.sh */,
+				B1FFB946EBF57F9FA8925412C3E541B9 /* Pods-example.debug.xcconfig */,
+				294567134DC4BA131814B663B2503D67 /* Pods-example.release.xcconfig */,
+			);
+			name = "Pods-example";
+			path = "Target Support Files/Pods-example";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05B9064B65FBB291E5D8A3EC31162F4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0A6A34BE9E1A5D0BBF1A75365418ED /* TapstreamIOS.h in Headers */,
+				4ECE73F7082C11AD1C554EA41438E58F /* TapstreamMac.h in Headers */,
+				40E9F998AEFAF342E92207CF358C459C /* TSApi.h in Headers */,
+				F4F5EE22BAC94C76C87097953991B83B /* TSAppEventSource.h in Headers */,
+				80051C0E63EEC9B67D258E8967CFEBD4 /* TSConfig.h in Headers */,
+				577285B17B98B7C48008A6E67B4A381C /* TSCoreListener.h in Headers */,
+				2AA82DDC7926A25DA14BCD036911ED9B /* TSDefaultAppEventSource.h in Headers */,
+				8C446A804879A045CF7D070C271A5BDC /* TSDefaultCoreListener.h in Headers */,
+				45A540E404142F249BE7D6B5AD90C72D /* TSDefaultFireEventStrategy.h in Headers */,
+				2B7D43E4A587C5B53757B2D632B267A4 /* TSDefaultHttpClient.h in Headers */,
+				E917FF02BEB3FD66937EEB97C0104B90 /* TSDefaultOfferStrategy.h in Headers */,
+				22A598B4F923E92E40E52945F6173AE6 /* TSDefaultPersistentStorage.h in Headers */,
+				E080F1FC6824A7024160A5F5C0D176F4 /* TSDefaultPlatform.h in Headers */,
+				09CFD6643FD146DBD0D2E71781A64149 /* TSDefaultRewardStrategy.h in Headers */,
+				ECD28575913BB5E2E8507EB0325F7824 /* TSDefs.h in Headers */,
+				37B25E277AD0635C608072765D0647F6 /* TSError.h in Headers */,
+				3BC952812B70EC85C193721EE199BCEE /* TSEvent.h in Headers */,
+				F7194829E363E9B3943107803E4D41B6 /* TSFallable.h in Headers */,
+				A9D7E45ADAAF7795FB8009716792A325 /* TSFireEventDelegate.h in Headers */,
+				85023E29F60CD7A72283058ADF74E411 /* TSFireEventStrategy.h in Headers */,
+				28EF3AE8852A772582DDEFE98515E2FA /* TSHttpClient.h in Headers */,
+				D714D2168A255CABA45A92DDC410CCD0 /* TSIOSFireEventDelegate.h in Headers */,
+				8E62EF7FEECB68EF558497839606473A /* TSIOSStartupDelegate.h in Headers */,
+				5180C1207376B7DF4576179768F61C11 /* TSIOSUniversalLinkDelegate.h in Headers */,
+				D26C7EA130B032FED94ECA4F77BAB4ED /* TSLogging.h in Headers */,
+				99C4ADA93018C2DF8A8E3DA53D7B8E20 /* TSLogLevel.h in Headers */,
+				B2EC4119C19D7C85C0980B60264737C6 /* TSOffer.h in Headers */,
+				9EA62C365D23B303CFD797BC5BCB881B /* TSOfferApiResponse.h in Headers */,
+				52A13F6552234321BED08AD729855875 /* TSOfferStrategy.h in Headers */,
+				D0382A3076E922C3E441C84A37CF436D /* TSOfferViewController.h in Headers */,
+				55D55D8DEF581003546BA08DB9249F3C /* TSPersistentStorage.h in Headers */,
+				015F9562948169F0436F9D22A95DA68F /* TSPlatform.h in Headers */,
+				870B5BDC8BFD20C063D1FFF95A18DF4F /* TSRequestData.h in Headers */,
+				D269ECE4C5D46E763C74E98AB5373AE1 /* TSResponse.h in Headers */,
+				BBA890C56C1BA5852FD62ED38E0B22A1 /* TSReward.h in Headers */,
+				434D6F6A2EC7D0D6178897D37CCF452A /* TSRewardApiResponse.h in Headers */,
+				42170072D476D38D5C3A896C7B892F77 /* TSRewardStrategy.h in Headers */,
+				F3EED4B113201531B43B2D19C68456B0 /* TSShowLanderDelegate.h in Headers */,
+				9F04FD6CF74A08FE25EE2FF75E2F9289 /* TSStartupDelegate.h in Headers */,
+				78DA60BFA37BA05D68F196235F0DE10B /* TSTapstream.h in Headers */,
+				E2B46149261515F7F33874453B1E7CA2 /* TSTimelineApiResponse.h in Headers */,
+				1E371B579D90C04CD41F4C1EBD42FBF0 /* TSTimelineLookupDelegate.h in Headers */,
+				B861B487A5D4FCB2E49A091AD0543025 /* TSUniversalLinkApiResponse.h in Headers */,
+				39114220EFCD8869ED89A99721DD3B80 /* TSURLBuilder.h in Headers */,
+				710F06917E25843E85912E7D03C59016 /* TSURLEncoder.h in Headers */,
+				6F9FAE729B5F877B3709DAB88CDEA380 /* TSWordOfMouth.h in Headers */,
+				CB3A880F51FAC708A8AE5F2BD55D5E31 /* TSWordOfMouthController.h in Headers */,
+				F0A98C17BA880552C101FBFE2459B4AA /* TSWordOfMouthDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFB450D0AD1C53A183B2C505622F3C3F /* Pods-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB2729930E03FFA1EAA95CE7729EEC7 /* Build configuration list for PBXNativeTarget "Pods-example" */;
+			buildPhases = (
+				606F27242555DEEC1546029110E38091 /* Sources */,
+				60C64C91B477C0197D3CEBF7EB565707 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0A5F979DAE17677B083FACF90A42FF /* PBXTargetDependency */,
+			);
+			name = "Pods-example";
+			productName = "Pods-example";
+			productReference = 6844E5258DEE2EBCD177EE294F84918F /* libPods-example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E463577B1857B7F93128F413ECDACED5 /* TapstreamIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920B4FFA8B236F3C3AB9A1CAD55CF608 /* Build configuration list for PBXNativeTarget "TapstreamIOS" */;
+			buildPhases = (
+				6953AEF3B8A460FD90EF1E72AD7AC802 /* Sources */,
+				B8EA219C7FD899A5A1F69A13C0C07017 /* Frameworks */,
+				05B9064B65FBB291E5D8A3EC31162F4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapstreamIOS;
+			productName = TapstreamIOS;
+			productReference = 427829DF3FF9CB7DAF191077958FE213 /* libTapstreamIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5EC7E09089F70281A63778B03B6121B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB450D0AD1C53A183B2C505622F3C3F /* Pods-example */,
+				E463577B1857B7F93128F413ECDACED5 /* TapstreamIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606F27242555DEEC1546029110E38091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E67CC30A303DFDC98EF194A28E0255 /* Pods-example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6953AEF3B8A460FD90EF1E72AD7AC802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559ABCEDE52C3F018662CC231EBC77CC /* TapstreamIOS-dummy.m in Sources */,
+				C09EA9E4A89B382BB6C9C9B713649550 /* TSConfig.m in Sources */,
+				1D0C5218881C3D57E602670065ACF109 /* TSDefaultAppEventSource.m in Sources */,
+				18DD72BF6DE75AC99F3C0E34D8311C47 /* TSDefaultCoreListener.m in Sources */,
+				B39B1CC2BDC9876A223B0B662FC85004 /* TSDefaultFireEventStrategy.m in Sources */,
+				B53D45965D38452C76EFB336B5496D29 /* TSDefaultHttpClient.m in Sources */,
+				2FADE87EB05700E7250064CB57BBCE1F /* TSDefaultOfferStrategy.m in Sources */,
+				55A51353969C7FE062041AFF1329272B /* TSDefaultPersistentStorage.m in Sources */,
+				4E88CCC8F747088C25DB57319BB37DEA /* TSDefaultPlatform.m in Sources */,
+				BDCF618262087A5AD17609641FB49A9E /* TSDefaultRewardStrategy.m in Sources */,
+				43BE5F679776ABF025A426D500B5BC75 /* TSError.m in Sources */,
+				EC5BAB4B91495FB88C5F58993AE09AA9 /* TSEvent.m in Sources */,
+				99434EF37B8DAB01C310F5865AE6557E /* TSFireEventDelegate.m in Sources */,
+				B140A765EE3546C0DF4416D848930EEA /* TSIOSFireEventDelegate.m in Sources */,
+				A69B19FB683CEAD1CF547D1490E3E250 /* TSIOSStartupDelegate.m in Sources */,
+				F7178D77BCBC31A3618EE6DA0546AA0D /* TSIOSUniversalLinkDelegate.m in Sources */,
+				582099F065998C3C7DC058AAC3AEA2F0 /* TSLogging.m in Sources */,
+				D52320791176B42DBA639AD601890B75 /* TSOffer.m in Sources */,
+				75EB40F17568AA6C5D3180C841480BED /* TSOfferApiResponse.m in Sources */,
+				A4E2E49D33F652C5B79EDF08383EBFA3 /* TSOfferViewController.m in Sources */,
+				24EBE039EB2FE3F5D4914437FD735D33 /* TSRequestData.m in Sources */,
+				D5F511045FD7C71FF287BE120F6DD1A1 /* TSResponse.m in Sources */,
+				43703BF1AF2C249C3FB3107AB39AC964 /* TSReward.m in Sources */,
+				69E114DC4C3C00E60BD1D9B61199A1C2 /* TSRewardApiResponse.m in Sources */,
+				F4DFEEAA514790B1477F4829CC68932D /* TSStartupDelegate.m in Sources */,
+				4F9C9E6F5D2B145E93C9D4C69AC0D402 /* TSTapstream.m in Sources */,
+				49F9DF6D8EC2540F3B3335D920EBA4CD /* TSTimelineApiResponse.m in Sources */,
+				218FD741EDC0F9D382B973DA4F04AA65 /* TSTimelineLookupDelegate.m in Sources */,
+				2DC735471EA720B4AF777451CCD35524 /* TSUniversalLinkApiResponse.m in Sources */,
+				1F2709B2941DA2AADE11E1F8FADE0BE0 /* TSURLBuilder.m in Sources */,
+				9F11920AC8B147180C4B6864DD071467 /* TSURLEncoder.m in Sources */,
+				E2F787174E4FEA9DE81C0335294AD096 /* TSWordOfMouthController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB0A5F979DAE17677B083FACF90A42FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapstreamIOS;
+			target = E463577B1857B7F93128F413ECDACED5 /* TapstreamIOS */;
+			targetProxy = DFE2D64B892CAAF355BC8611797F119E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		475B07EBF8BCDB2DA0438BBE6D5E8CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294567134DC4BA131814B663B2503D67 /* Pods-example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E74CA5D7EFF38627A61D30BF3CBC82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52B64BAE6E48E26DB2CA78BB264FC6C /* TapstreamIOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TapstreamIOS/TapstreamIOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80A8EEE25FA281ABCB0B76D1606ED53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FFB946EBF57F9FA8925412C3E541B9 /* Pods-example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C03E89C93DFC4CD17D832D540C9CCDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52B64BAE6E48E26DB2CA78BB264FC6C /* TapstreamIOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TapstreamIOS/TapstreamIOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920B4FFA8B236F3C3AB9A1CAD55CF608 /* Build configuration list for PBXNativeTarget "TapstreamIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03E89C93DFC4CD17D832D540C9CCDEF /* Debug */,
+				6E74CA5D7EFF38627A61D30BF3CBC82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB2729930E03FFA1EAA95CE7729EEC7 /* Build configuration list for PBXNativeTarget "Pods-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A8EEE25FA281ABCB0B76D1606ED53B /* Debug */,
+				475B07EBF8BCDB2DA0438BBE6D5E8CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - TapstreamIOS/Core (3.0.0)
+  - TapstreamIOS/WordOfMouth (3.0.0)
+
+DEPENDENCIES:
+  - TapstreamIOS/Core
+  - TapstreamIOS/WordOfMouth
+
+SPEC CHECKSUMS:
+  TapstreamIOS: aded1211b103fe0dbcf4b43c805badaa7d2cc220
+
+PODFILE CHECKSUM: 76e55833b90ddab94c66d448fca2c5d8593529f0
+
+COCOAPODS: 1.0.1
