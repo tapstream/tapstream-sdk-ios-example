@@ -34,6 +34,12 @@ class ViewController: UIViewController {
 		})
 	}
 
+	func appendMessage(_ m: String) {
+		DispatchQueue.main.async(execute: {
+			self.exampleLog.text = self.exampleLog.text + "\n" + m
+		})
+	}
+
 	@IBAction func generateConversion(_ sender: AnyObject) {
 		let accountName = Globals.accountName
 
@@ -46,12 +52,12 @@ class ViewController: UIViewController {
 		                                  tsid)) {
 			httpClient.request(hitUrl) { (response: TSResponse?) in
 				if response == nil || response!.failed() {
-					self.logMessage("Could not create hit.")
+					self.appendMessage("Could not create hit.")
 					return
 				}
 				let event = TSEvent(name:"exampleapp-generate-conversion", oneTimeOnly:false)
 				TSTapstream.instance().fire(event)
-				self.logMessage(hitUrl.absoluteString)
+				self.appendMessage("Done!")
 			}
 		}
 	}
@@ -60,8 +66,8 @@ class ViewController: UIViewController {
 
 		let event = TSEvent(name:"event-with-custom-params", oneTimeOnly:false)!
 		event.addValue("some-value", forKey: "some-key")
-
-		TSTapstream.instance().fire(event);
+		
+		TSTapstream.instance().fire(event)
 
 		self.logMessage(String.init(format: "Event Fired: %@", event.name))
 	}
@@ -72,8 +78,9 @@ class ViewController: UIViewController {
 		                    quantity: 12,
 		                    priceInCents: 1000,
 		                    currency: "USD")!
-		TSTapstream.instance().fire(event);
+		TSTapstream.instance().fire(event)
 		self.logMessage(String.init(format: "Event Fired: %@", event.name))
+
 	}
 
 	@IBAction func firePurchaseEventNoPrice(_ sender: AnyObject) {
@@ -108,7 +115,7 @@ class ViewController: UIViewController {
 				self.logMessage("No offer retrieved!")
 				return
 			}
-			if let offer = resp!.offer {
+			if let offer = resp?.offer {
 				wom.show(offer, parentViewController: self)
 				self.logMessage(String.init(format:"Offer retrieved (id=%d)", offer.ident))
 			}
