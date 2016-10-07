@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AC42DA1492A546916A2C71859D35F4 /* TSUniversalLinkApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7825CD4F5C1A92700E94D10355344BF2 /* TSUniversalLinkApiResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		1FC18DA38293852D8EED81005EE4C847 /* TSTimelineLookupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8D4E8E6CB2B6299963CCD7AE4D5BFF /* TSTimelineLookupDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		200137D5B28B4B1C857352BF32E1402C /* TSPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BACE622D5BD5529850FAAAE8CFA51D /* TSPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264FD8D7EAEDD2AEFA211CF55935FD97 /* TSDefaultPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A7975F623D61F1F02BCB2FD977563 /* TSDefaultPlatform.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		28B434745B493EB0CA4F8DCD1E85CCFD /* TSResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C6893BC647F72B07E09E3E537966F8 /* TSResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A1979DB04FD40DB1DE1F2AE0A387F3C /* TSDefaultPersistentStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A03D6254EECF152E1182864A5699B8C9 /* TSDefaultPersistentStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF650FF87932CBE0A3A213286DBA360 /* TSLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F03D418AD81BBEADF85D3C12BCE334 /* TSLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED49EDF3BA9094515A068A8C1C493A5 /* TSLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5FC670A60AAD975EBD3456256B9525 /* TSLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30554AE2DFDBB1BA8434870C5D41B0B7 /* TSDefaultPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DF776BFC2CCF34F7C82D2A1CCE7BFB /* TSDefaultPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341CDEEC7DA371D262B74E81B4109F57 /* TSURLBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B585E428A0B35A3ED5882FA13AD467D /* TSURLBuilder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		3850E907CF1AB73092E8D70048067AC9 /* TSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B87A2DFF90A106CCF832D494AA2E2BE4 /* TSConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CBBA0A44F6FCD4C93BBDBB501E8D18B /* TSFireEventStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7355256FE6269EC6AAB3DB2B2FB03F4 /* TSFireEventStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC6840A18B7D0F40B5E05705EEFA838 /* TSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7B45EF8B82614E524787A820683DD1 /* TSConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		40487F5C53606EE2926D90933700E057 /* TSEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DBB596DD46C3DA30597A438E7963AA /* TSEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B4014D489947BB50A803331670505F /* TapstreamMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D830F203D8DB307800493116FDEAA0 /* TapstreamMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		426FA83C023950E13DFC1B62AE85E09A /* TSDefaultCoreListener.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C0927448F7DE59CFB4E6171C7E6570 /* TSDefaultCoreListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B369F9776DCF845EB16222B9063E012 /* TSCoreListener.h in Headers */ = {isa = PBXBuildFile; fileRef = E71C89FE0558CFC93B0445650ABAA1B9 /* TSCoreListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568814CCCEB7EBED777B317917CEAA48 /* TSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A806FB9A38441AB231AE17445AFE00B /* TSLogging.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		571DA0BE1E94753E52CB76E865551E6F /* TSAppEventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5D0BC175EFB44CF8B123C8655E4005 /* TSAppEventSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB82D2355641BEC2E91B31996EA2CAF /* TSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F487D75518E49324734493FCCDCEA877 /* TSResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		5B67DFAC7CD92B8E3260450F3349B24E /* TSHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E112EF2DB0D2392D14CEB6EF5614762 /* TSHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D704612012B4BE7F5CF647D180E66A9 /* TapstreamMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF42BC93473A29A785F99FF346BE984 /* TapstreamMac-dummy.m */; };
+		5E1E72E7A31937829A799C3ED106FB0C /* TSDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D85842DB65D5F7FACEB8C0958AAA94 /* TSDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE97FCC479A891F96DA007D1270BB27 /* TSDefaultHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1804E8C63E7AA9C205086F7253A2DCC3 /* TSDefaultHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B5C0A5E46B030B8B6CCDFE7AE589A0 /* TSStartupDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABA1EDFD097378C9A097ADED080FFA /* TSStartupDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		6901D1D7B65779F079FFA66EAD3DD297 /* TSDefaultAppEventSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A799BF779A083E1DECF5E0931D19E6 /* TSDefaultAppEventSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		69F195CBEEE35A3D6B86ECAB521EE3F9 /* TSRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CD9FBCD5247634507D1DC2C822449B /* TSRequestData.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		716F2B7F8A65F58B143B24BC4C727BA0 /* TSFireEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 248588AD8B33AF6DEC159506597B66E4 /* TSFireEventDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C35AF3A976C27AEE1274621436E060 /* TSError.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A44253C2755913117D33FD0D969873 /* TSError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788A3F095ED30DC9277F8FB81BD22AEC /* TSDefaultAppEventSource.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA2A71FB04831CBB1D3FCAA9BA4EF23 /* TSDefaultAppEventSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B12BA134FBF0C326073B5D6A0967DBA /* TSDefaultHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EDFC33C73F76C13A1E5F23CF8CC1BE /* TSDefaultHttpClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		7E1FFD7AB14834C32838313DFA83F50D /* TSDefaultPersistentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F875B0B92F5938BAACAF004DE19DE566 /* TSDefaultPersistentStorage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		88077AC879CD4E8042F5883000B45997 /* TSPersistentStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CC39D7A4CE1547632BF163BC13F4D3 /* TSPersistentStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE7A7D24F98B6965504CD4BC124A5B1 /* TSTimelineApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCBBCED1468CCE8218103BF4BAA6E55 /* TSTimelineApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9227B17304779916EEDB9EDE75C8FB7E /* TSDefaultFireEventStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F79CCF528313318C8FE10AE018B0566 /* TSDefaultFireEventStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A097C0CB9CF85381D13D2C8F0E06AFFB /* TSStartupDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2D4D81ABED387FF171DA0D76B0F789 /* TSStartupDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4663FC0D3B2ED8EFF945F4F60196BE7 /* TSURLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A43A127315D2627DBA9A22B68CA79B71 /* TSURLBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5F5DBC95867BA83FE75DED91A876C8 /* TSFallable.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DE3E366271DB936B835CDF4612CC40 /* TSFallable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B26A79338BEE939CDB3F7D53920ADA70 /* Pods-ExampleMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A12D15BA72308D910A7EF49D8ECEF7 /* Pods-ExampleMac-dummy.m */; };
+		B7232E12D63C3868E834C8B63BF5C96E /* TSRequestData.h in Headers */ = {isa = PBXBuildFile; fileRef = FB850DF8FEDB9C127A63038CB97A833C /* TSRequestData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7A154EDF0E6CA4C795D0BEAE782E3A6 /* TSTapstream.h in Headers */ = {isa = PBXBuildFile; fileRef = AC55AEEE2683990C8D5792C4EFFDE13D /* TSTapstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B39FD1DECB337B433615563DDF9554 /* TSFireEventDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A761EA280F2F486BD4D4B2BB650078BD /* TSFireEventDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		C95172BC673AD8A9443485B4C37BC797 /* TSDefaultFireEventStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1612D1B77CAAF9ACEA084EE8207FC79 /* TSDefaultFireEventStrategy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		CA36E4402E34239294B110B2B96B5B75 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16CC2B200CBCC8F212151DD02FBCE53 /* AppKit.framework */; };
+		CC5107A9C6829A0FB60035C1D1D4DEF4 /* TSTimelineApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 40939FD8E6925F968BE566D064C2EFA7 /* TSTimelineApiResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		CE2A6132CA94A18CCCC80D2EA6194D39 /* TSURLEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B50C9B06C60D5B4471184F23124AB11C /* TSURLEncoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		CEC0063C8DCE3CE369990D34DD25BE28 /* TSError.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A80566E445CB2DBC326A8277B7FAD1 /* TSError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		D4345674818A656A8917DBFACE6FE597 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AF286D25AB574E27A7C1DABA5CDD0 /* Cocoa.framework */; };
+		D53E6A139C9BA339F1EB276F5254475F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172AF286D25AB574E27A7C1DABA5CDD0 /* Cocoa.framework */; };
+		D8E0102085B7C8F68CFDAEAC38DFF233 /* TSTapstream.m in Sources */ = {isa = PBXBuildFile; fileRef = F70FDA3FB09C24932C239CF7107F3467 /* TSTapstream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		DD09E55720D0A18E1F91F02817B980CD /* TSApi.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E8B544B5C8099143F1EB007B099BEE /* TSApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2613614B57B25724418002B04D316BD /* TSURLEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE5287BC819207A3E2EEE5C197EA986 /* TSURLEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECBDA8BB68A88F29D093E760384D3D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF0A85F207F56643E71F6640E36E6F4 /* Foundation.framework */; };
+		EE51BD1A8148FBD78E10551D0CEBFED1 /* TSUniversalLinkApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 34701083428CD637D6A7B71E68BD0A2F /* TSUniversalLinkApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7177EDF7C04FE350244A30BA7B8459 /* TSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8980634B2DC84B49D693BE02BE2DEFE2 /* TSEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		F9F5BF2B13B90CCEF53108607E3AEC3C /* TSDefaultCoreListener.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB159BE5310A9072F112FA0CD58DBC /* TSDefaultCoreListener.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+		FF407C53F8017D975AC5C4A9FC353B5F /* TSTimelineLookupDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA792A392C972B82803ADE3F7A9336E9 /* TSTimelineLookupDelegate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54738B7A25568FFAAD047AACAB9330F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9496A453DFF645334BEA7976B8A47E;
+			remoteInfo = TapstreamMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A799BF779A083E1DECF5E0931D19E6 /* TSDefaultAppEventSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultAppEventSource.m; path = "tapstream-sdk-ios/TSDefaultAppEventSource.m"; sourceTree = "<group>"; };
+		0CA0BA48D6F9C6AC1343BB5ED3C57E95 /* Pods-ExampleMac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleMac-resources.sh"; sourceTree = "<group>"; };
+		12EDFC33C73F76C13A1E5F23CF8CC1BE /* TSDefaultHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultHttpClient.m; path = "tapstream-sdk-ios/TSDefaultHttpClient.m"; sourceTree = "<group>"; };
+		165771846148CBEF6D0A41C530D597F6 /* TapstreamMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapstreamMac.xcconfig; sourceTree = "<group>"; };
+		16BACE622D5BD5529850FAAAE8CFA51D /* TSPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSPlatform.h; path = "tapstream-sdk-ios/TSPlatform.h"; sourceTree = "<group>"; };
+		172AF286D25AB574E27A7C1DABA5CDD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1804E8C63E7AA9C205086F7253A2DCC3 /* TSDefaultHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultHttpClient.h; path = "tapstream-sdk-ios/TSDefaultHttpClient.h"; sourceTree = "<group>"; };
+		1F5FC670A60AAD975EBD3456256B9525 /* TSLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSLogLevel.h; path = "tapstream-sdk-ios/TSLogLevel.h"; sourceTree = "<group>"; };
+		23DE3E366271DB936B835CDF4612CC40 /* TSFallable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSFallable.h; path = "tapstream-sdk-ios/TSFallable.h"; sourceTree = "<group>"; };
+		248588AD8B33AF6DEC159506597B66E4 /* TSFireEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSFireEventDelegate.h; path = "tapstream-sdk-ios/TSFireEventDelegate.h"; sourceTree = "<group>"; };
+		28D830F203D8DB307800493116FDEAA0 /* TapstreamMac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TapstreamMac.h; path = "tapstream-sdk-ios/TapstreamMac.h"; sourceTree = "<group>"; };
+		2A806FB9A38441AB231AE17445AFE00B /* TSLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSLogging.m; path = "tapstream-sdk-ios/TSLogging.m"; sourceTree = "<group>"; };
+		2DB7582BA3E9907415367E231AC42497 /* Pods-ExampleMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleMac.debug.xcconfig"; sourceTree = "<group>"; };
+		2E112EF2DB0D2392D14CEB6EF5614762 /* TSHttpClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSHttpClient.h; path = "tapstream-sdk-ios/TSHttpClient.h"; sourceTree = "<group>"; };
+		2F79CCF528313318C8FE10AE018B0566 /* TSDefaultFireEventStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultFireEventStrategy.h; path = "tapstream-sdk-ios/TSDefaultFireEventStrategy.h"; sourceTree = "<group>"; };
+		32417BE8C394F437AC633C12B50B44AB /* Pods-ExampleMac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleMac-acknowledgements.plist"; sourceTree = "<group>"; };
+		34701083428CD637D6A7B71E68BD0A2F /* TSUniversalLinkApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSUniversalLinkApiResponse.h; path = "tapstream-sdk-ios/TSUniversalLinkApiResponse.h"; sourceTree = "<group>"; };
+		40939FD8E6925F968BE566D064C2EFA7 /* TSTimelineApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTimelineApiResponse.m; path = "tapstream-sdk-ios/TSTimelineApiResponse.m"; sourceTree = "<group>"; };
+		4FCBBCED1468CCE8218103BF4BAA6E55 /* TSTimelineApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTimelineApiResponse.h; path = "tapstream-sdk-ios/TSTimelineApiResponse.h"; sourceTree = "<group>"; };
+		5B585E428A0B35A3ED5882FA13AD467D /* TSURLBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSURLBuilder.m; path = "tapstream-sdk-ios/TSURLBuilder.m"; sourceTree = "<group>"; };
+		61EBCFCC57A3BBC45A9319F80E4D1712 /* Pods-ExampleMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleMac.release.xcconfig"; sourceTree = "<group>"; };
+		67E4FAFB9A19C8951A86CCEA180ED232 /* Pods-ExampleMac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleMac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68CC39D7A4CE1547632BF163BC13F4D3 /* TSPersistentStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSPersistentStorage.h; path = "tapstream-sdk-ios/TSPersistentStorage.h"; sourceTree = "<group>"; };
+		71C6893BC647F72B07E09E3E537966F8 /* TSResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSResponse.h; path = "tapstream-sdk-ios/TSResponse.h"; sourceTree = "<group>"; };
+		7825CD4F5C1A92700E94D10355344BF2 /* TSUniversalLinkApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSUniversalLinkApiResponse.m; path = "tapstream-sdk-ios/TSUniversalLinkApiResponse.m"; sourceTree = "<group>"; };
+		7D4A7975F623D61F1F02BCB2FD977563 /* TSDefaultPlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultPlatform.m; path = "tapstream-sdk-ios/TSDefaultPlatform.m"; sourceTree = "<group>"; };
+		83D7F55E8BA2272A8B8793CC96BCFA39 /* libTapstreamMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTapstreamMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D85842DB65D5F7FACEB8C0958AAA94 /* TSDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefs.h; path = "tapstream-sdk-ios/TSDefs.h"; sourceTree = "<group>"; };
+		8980634B2DC84B49D693BE02BE2DEFE2 /* TSEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSEvent.m; path = "tapstream-sdk-ios/TSEvent.m"; sourceTree = "<group>"; };
+		8A8D4E8E6CB2B6299963CCD7AE4D5BFF /* TSTimelineLookupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTimelineLookupDelegate.h; path = "tapstream-sdk-ios/TSTimelineLookupDelegate.h"; sourceTree = "<group>"; };
+		8D2D4D81ABED387FF171DA0D76B0F789 /* TSStartupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSStartupDelegate.h; path = "tapstream-sdk-ios/TSStartupDelegate.h"; sourceTree = "<group>"; };
+		8F7953DCF20EB3BBF83E4B9552545584 /* libPods-ExampleMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF42BC93473A29A785F99FF346BE984 /* TapstreamMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapstreamMac-dummy.m"; sourceTree = "<group>"; };
+		A03D6254EECF152E1182864A5699B8C9 /* TSDefaultPersistentStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultPersistentStorage.h; path = "tapstream-sdk-ios/TSDefaultPersistentStorage.h"; sourceTree = "<group>"; };
+		A1612D1B77CAAF9ACEA084EE8207FC79 /* TSDefaultFireEventStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultFireEventStrategy.m; path = "tapstream-sdk-ios/TSDefaultFireEventStrategy.m"; sourceTree = "<group>"; };
+		A3A12D15BA72308D910A7EF49D8ECEF7 /* Pods-ExampleMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleMac-dummy.m"; sourceTree = "<group>"; };
+		A3ABA1EDFD097378C9A097ADED080FFA /* TSStartupDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSStartupDelegate.m; path = "tapstream-sdk-ios/TSStartupDelegate.m"; sourceTree = "<group>"; };
+		A43A127315D2627DBA9A22B68CA79B71 /* TSURLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSURLBuilder.h; path = "tapstream-sdk-ios/TSURLBuilder.h"; sourceTree = "<group>"; };
+		A6F03D418AD81BBEADF85D3C12BCE334 /* TSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSLogging.h; path = "tapstream-sdk-ios/TSLogging.h"; sourceTree = "<group>"; };
+		A761EA280F2F486BD4D4B2BB650078BD /* TSFireEventDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSFireEventDelegate.m; path = "tapstream-sdk-ios/TSFireEventDelegate.m"; sourceTree = "<group>"; };
+		AAAC77C451229C6A951AB29D796DCEB3 /* TapstreamMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapstreamMac-prefix.pch"; sourceTree = "<group>"; };
+		AC55AEEE2683990C8D5792C4EFFDE13D /* TSTapstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTapstream.h; path = "tapstream-sdk-ios/TSTapstream.h"; sourceTree = "<group>"; };
+		ADA2A71FB04831CBB1D3FCAA9BA4EF23 /* TSDefaultAppEventSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultAppEventSource.h; path = "tapstream-sdk-ios/TSDefaultAppEventSource.h"; sourceTree = "<group>"; };
+		B0EB159BE5310A9072F112FA0CD58DBC /* TSDefaultCoreListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultCoreListener.m; path = "tapstream-sdk-ios/TSDefaultCoreListener.m"; sourceTree = "<group>"; };
+		B50C9B06C60D5B4471184F23124AB11C /* TSURLEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSURLEncoder.m; path = "tapstream-sdk-ios/TSURLEncoder.m"; sourceTree = "<group>"; };
+		B5A44253C2755913117D33FD0D969873 /* TSError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSError.h; path = "tapstream-sdk-ios/TSError.h"; sourceTree = "<group>"; };
+		B7355256FE6269EC6AAB3DB2B2FB03F4 /* TSFireEventStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSFireEventStrategy.h; path = "tapstream-sdk-ios/TSFireEventStrategy.h"; sourceTree = "<group>"; };
+		B87A2DFF90A106CCF832D494AA2E2BE4 /* TSConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSConfig.h; path = "tapstream-sdk-ios/TSConfig.h"; sourceTree = "<group>"; };
+		BF7B45EF8B82614E524787A820683DD1 /* TSConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSConfig.m; path = "tapstream-sdk-ios/TSConfig.m"; sourceTree = "<group>"; };
+		C16CC2B200CBCC8F212151DD02FBCE53 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		CA5D0BC175EFB44CF8B123C8655E4005 /* TSAppEventSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSAppEventSource.h; path = "tapstream-sdk-ios/TSAppEventSource.h"; sourceTree = "<group>"; };
+		D1A80566E445CB2DBC326A8277B7FAD1 /* TSError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSError.m; path = "tapstream-sdk-ios/TSError.m"; sourceTree = "<group>"; };
+		DFF0A85F207F56643E71F6640E36E6F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0C0927448F7DE59CFB4E6171C7E6570 /* TSDefaultCoreListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultCoreListener.h; path = "tapstream-sdk-ios/TSDefaultCoreListener.h"; sourceTree = "<group>"; };
+		E4DF776BFC2CCF34F7C82D2A1CCE7BFB /* TSDefaultPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSDefaultPlatform.h; path = "tapstream-sdk-ios/TSDefaultPlatform.h"; sourceTree = "<group>"; };
+		E56F6454191E4186D5844EF74CF5CA41 /* Pods-ExampleMac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleMac-frameworks.sh"; sourceTree = "<group>"; };
+		E71C89FE0558CFC93B0445650ABAA1B9 /* TSCoreListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCoreListener.h; path = "tapstream-sdk-ios/TSCoreListener.h"; sourceTree = "<group>"; };
+		F0E8B544B5C8099143F1EB007B099BEE /* TSApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSApi.h; path = "tapstream-sdk-ios/TSApi.h"; sourceTree = "<group>"; };
+		F2CD9FBCD5247634507D1DC2C822449B /* TSRequestData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSRequestData.m; path = "tapstream-sdk-ios/TSRequestData.m"; sourceTree = "<group>"; };
+		F487D75518E49324734493FCCDCEA877 /* TSResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSResponse.m; path = "tapstream-sdk-ios/TSResponse.m"; sourceTree = "<group>"; };
+		F5DBB596DD46C3DA30597A438E7963AA /* TSEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSEvent.h; path = "tapstream-sdk-ios/TSEvent.h"; sourceTree = "<group>"; };
+		F70FDA3FB09C24932C239CF7107F3467 /* TSTapstream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTapstream.m; path = "tapstream-sdk-ios/TSTapstream.m"; sourceTree = "<group>"; };
+		F875B0B92F5938BAACAF004DE19DE566 /* TSDefaultPersistentStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSDefaultPersistentStorage.m; path = "tapstream-sdk-ios/TSDefaultPersistentStorage.m"; sourceTree = "<group>"; };
+		FA792A392C972B82803ADE3F7A9336E9 /* TSTimelineLookupDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTimelineLookupDelegate.m; path = "tapstream-sdk-ios/TSTimelineLookupDelegate.m"; sourceTree = "<group>"; };
+		FB850DF8FEDB9C127A63038CB97A833C /* TSRequestData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSRequestData.h; path = "tapstream-sdk-ios/TSRequestData.h"; sourceTree = "<group>"; };
+		FDE5287BC819207A3E2EEE5C197EA986 /* TSURLEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSURLEncoder.h; path = "tapstream-sdk-ios/TSURLEncoder.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548C7DD4E49347613751E3E93F2921EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36E4402E34239294B110B2B96B5B75 /* AppKit.framework in Frameworks */,
+				D53E6A139C9BA339F1EB276F5254475F /* Cocoa.framework in Frameworks */,
+				ECBDA8BB68A88F29D093E760384D3D71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7934F5C9626B8EECC0EC3184A746CAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4345674818A656A8917DBFACE6FE597 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE7BF1697482ADE35760AE170ED9107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7953DCF20EB3BBF83E4B9552545584 /* libPods-ExampleMac.a */,
+				83D7F55E8BA2272A8B8793CC96BCFA39 /* libTapstreamMac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		152E88E6E06DC19DDA9B69CE013B88D3 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C16CC2B200CBCC8F212151DD02FBCE53 /* AppKit.framework */,
+				172AF286D25AB574E27A7C1DABA5CDD0 /* Cocoa.framework */,
+				DFF0A85F207F56643E71F6640E36E6F4 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		5BA5C9C79DB70EC2756D9EE518CC6EA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98D00C5B10C66BA56632F0747F9CCA0B /* TapstreamMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				96D996393384F21972E2DD81788EE22C /* Frameworks */,
+				5BA5C9C79DB70EC2756D9EE518CC6EA4 /* Pods */,
+				0DE7BF1697482ADE35760AE170ED9107 /* Products */,
+				E03E01B5B1BF5D82AC8DE0C63E1E047D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86D2E0DDDCD0C560CF17B16FE8AA1FB4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		96D996393384F21972E2DD81788EE22C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152E88E6E06DC19DDA9B69CE013B88D3 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D00C5B10C66BA56632F0747F9CCA0B /* TapstreamMac */ = {
+			isa = PBXGroup;
+			children = (
+				28D830F203D8DB307800493116FDEAA0 /* TapstreamMac.h */,
+				F0E8B544B5C8099143F1EB007B099BEE /* TSApi.h */,
+				CA5D0BC175EFB44CF8B123C8655E4005 /* TSAppEventSource.h */,
+				B87A2DFF90A106CCF832D494AA2E2BE4 /* TSConfig.h */,
+				BF7B45EF8B82614E524787A820683DD1 /* TSConfig.m */,
+				E71C89FE0558CFC93B0445650ABAA1B9 /* TSCoreListener.h */,
+				ADA2A71FB04831CBB1D3FCAA9BA4EF23 /* TSDefaultAppEventSource.h */,
+				05A799BF779A083E1DECF5E0931D19E6 /* TSDefaultAppEventSource.m */,
+				E0C0927448F7DE59CFB4E6171C7E6570 /* TSDefaultCoreListener.h */,
+				B0EB159BE5310A9072F112FA0CD58DBC /* TSDefaultCoreListener.m */,
+				2F79CCF528313318C8FE10AE018B0566 /* TSDefaultFireEventStrategy.h */,
+				A1612D1B77CAAF9ACEA084EE8207FC79 /* TSDefaultFireEventStrategy.m */,
+				1804E8C63E7AA9C205086F7253A2DCC3 /* TSDefaultHttpClient.h */,
+				12EDFC33C73F76C13A1E5F23CF8CC1BE /* TSDefaultHttpClient.m */,
+				A03D6254EECF152E1182864A5699B8C9 /* TSDefaultPersistentStorage.h */,
+				F875B0B92F5938BAACAF004DE19DE566 /* TSDefaultPersistentStorage.m */,
+				E4DF776BFC2CCF34F7C82D2A1CCE7BFB /* TSDefaultPlatform.h */,
+				7D4A7975F623D61F1F02BCB2FD977563 /* TSDefaultPlatform.m */,
+				85D85842DB65D5F7FACEB8C0958AAA94 /* TSDefs.h */,
+				B5A44253C2755913117D33FD0D969873 /* TSError.h */,
+				D1A80566E445CB2DBC326A8277B7FAD1 /* TSError.m */,
+				F5DBB596DD46C3DA30597A438E7963AA /* TSEvent.h */,
+				8980634B2DC84B49D693BE02BE2DEFE2 /* TSEvent.m */,
+				23DE3E366271DB936B835CDF4612CC40 /* TSFallable.h */,
+				248588AD8B33AF6DEC159506597B66E4 /* TSFireEventDelegate.h */,
+				A761EA280F2F486BD4D4B2BB650078BD /* TSFireEventDelegate.m */,
+				B7355256FE6269EC6AAB3DB2B2FB03F4 /* TSFireEventStrategy.h */,
+				2E112EF2DB0D2392D14CEB6EF5614762 /* TSHttpClient.h */,
+				A6F03D418AD81BBEADF85D3C12BCE334 /* TSLogging.h */,
+				2A806FB9A38441AB231AE17445AFE00B /* TSLogging.m */,
+				1F5FC670A60AAD975EBD3456256B9525 /* TSLogLevel.h */,
+				68CC39D7A4CE1547632BF163BC13F4D3 /* TSPersistentStorage.h */,
+				16BACE622D5BD5529850FAAAE8CFA51D /* TSPlatform.h */,
+				FB850DF8FEDB9C127A63038CB97A833C /* TSRequestData.h */,
+				F2CD9FBCD5247634507D1DC2C822449B /* TSRequestData.m */,
+				71C6893BC647F72B07E09E3E537966F8 /* TSResponse.h */,
+				F487D75518E49324734493FCCDCEA877 /* TSResponse.m */,
+				8D2D4D81ABED387FF171DA0D76B0F789 /* TSStartupDelegate.h */,
+				A3ABA1EDFD097378C9A097ADED080FFA /* TSStartupDelegate.m */,
+				AC55AEEE2683990C8D5792C4EFFDE13D /* TSTapstream.h */,
+				F70FDA3FB09C24932C239CF7107F3467 /* TSTapstream.m */,
+				4FCBBCED1468CCE8218103BF4BAA6E55 /* TSTimelineApiResponse.h */,
+				40939FD8E6925F968BE566D064C2EFA7 /* TSTimelineApiResponse.m */,
+				8A8D4E8E6CB2B6299963CCD7AE4D5BFF /* TSTimelineLookupDelegate.h */,
+				FA792A392C972B82803ADE3F7A9336E9 /* TSTimelineLookupDelegate.m */,
+				34701083428CD637D6A7B71E68BD0A2F /* TSUniversalLinkApiResponse.h */,
+				7825CD4F5C1A92700E94D10355344BF2 /* TSUniversalLinkApiResponse.m */,
+				A43A127315D2627DBA9A22B68CA79B71 /* TSURLBuilder.h */,
+				5B585E428A0B35A3ED5882FA13AD467D /* TSURLBuilder.m */,
+				FDE5287BC819207A3E2EEE5C197EA986 /* TSURLEncoder.h */,
+				B50C9B06C60D5B4471184F23124AB11C /* TSURLEncoder.m */,
+				86D2E0DDDCD0C560CF17B16FE8AA1FB4 /* Core */,
+				E059424EF54F3E47BCCAAB80E5FBE356 /* Support Files */,
+			);
+			path = TapstreamMac;
+			sourceTree = "<group>";
+		};
+		C73DC3987EA24AB3A1D1C393CC2FE870 /* Pods-ExampleMac */ = {
+			isa = PBXGroup;
+			children = (
+				67E4FAFB9A19C8951A86CCEA180ED232 /* Pods-ExampleMac-acknowledgements.markdown */,
+				32417BE8C394F437AC633C12B50B44AB /* Pods-ExampleMac-acknowledgements.plist */,
+				A3A12D15BA72308D910A7EF49D8ECEF7 /* Pods-ExampleMac-dummy.m */,
+				E56F6454191E4186D5844EF74CF5CA41 /* Pods-ExampleMac-frameworks.sh */,
+				0CA0BA48D6F9C6AC1343BB5ED3C57E95 /* Pods-ExampleMac-resources.sh */,
+				2DB7582BA3E9907415367E231AC42497 /* Pods-ExampleMac.debug.xcconfig */,
+				61EBCFCC57A3BBC45A9319F80E4D1712 /* Pods-ExampleMac.release.xcconfig */,
+			);
+			name = "Pods-ExampleMac";
+			path = "Target Support Files/Pods-ExampleMac";
+			sourceTree = "<group>";
+		};
+		E03E01B5B1BF5D82AC8DE0C63E1E047D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73DC3987EA24AB3A1D1C393CC2FE870 /* Pods-ExampleMac */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E059424EF54F3E47BCCAAB80E5FBE356 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				165771846148CBEF6D0A41C530D597F6 /* TapstreamMac.xcconfig */,
+				9FF42BC93473A29A785F99FF346BE984 /* TapstreamMac-dummy.m */,
+				AAAC77C451229C6A951AB29D796DCEB3 /* TapstreamMac-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TapstreamMac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BE63D1D9357375FCFD3645BA008B6E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B4014D489947BB50A803331670505F /* TapstreamMac.h in Headers */,
+				DD09E55720D0A18E1F91F02817B980CD /* TSApi.h in Headers */,
+				571DA0BE1E94753E52CB76E865551E6F /* TSAppEventSource.h in Headers */,
+				3850E907CF1AB73092E8D70048067AC9 /* TSConfig.h in Headers */,
+				4B369F9776DCF845EB16222B9063E012 /* TSCoreListener.h in Headers */,
+				788A3F095ED30DC9277F8FB81BD22AEC /* TSDefaultAppEventSource.h in Headers */,
+				426FA83C023950E13DFC1B62AE85E09A /* TSDefaultCoreListener.h in Headers */,
+				9227B17304779916EEDB9EDE75C8FB7E /* TSDefaultFireEventStrategy.h in Headers */,
+				5FE97FCC479A891F96DA007D1270BB27 /* TSDefaultHttpClient.h in Headers */,
+				2A1979DB04FD40DB1DE1F2AE0A387F3C /* TSDefaultPersistentStorage.h in Headers */,
+				30554AE2DFDBB1BA8434870C5D41B0B7 /* TSDefaultPlatform.h in Headers */,
+				5E1E72E7A31937829A799C3ED106FB0C /* TSDefs.h in Headers */,
+				71C35AF3A976C27AEE1274621436E060 /* TSError.h in Headers */,
+				40487F5C53606EE2926D90933700E057 /* TSEvent.h in Headers */,
+				AC5F5DBC95867BA83FE75DED91A876C8 /* TSFallable.h in Headers */,
+				716F2B7F8A65F58B143B24BC4C727BA0 /* TSFireEventDelegate.h in Headers */,
+				3CBBA0A44F6FCD4C93BBDBB501E8D18B /* TSFireEventStrategy.h in Headers */,
+				5B67DFAC7CD92B8E3260450F3349B24E /* TSHttpClient.h in Headers */,
+				2BF650FF87932CBE0A3A213286DBA360 /* TSLogging.h in Headers */,
+				2ED49EDF3BA9094515A068A8C1C493A5 /* TSLogLevel.h in Headers */,
+				88077AC879CD4E8042F5883000B45997 /* TSPersistentStorage.h in Headers */,
+				200137D5B28B4B1C857352BF32E1402C /* TSPlatform.h in Headers */,
+				B7232E12D63C3868E834C8B63BF5C96E /* TSRequestData.h in Headers */,
+				28B434745B493EB0CA4F8DCD1E85CCFD /* TSResponse.h in Headers */,
+				A097C0CB9CF85381D13D2C8F0E06AFFB /* TSStartupDelegate.h in Headers */,
+				B7A154EDF0E6CA4C795D0BEAE782E3A6 /* TSTapstream.h in Headers */,
+				8AE7A7D24F98B6965504CD4BC124A5B1 /* TSTimelineApiResponse.h in Headers */,
+				1FC18DA38293852D8EED81005EE4C847 /* TSTimelineLookupDelegate.h in Headers */,
+				EE51BD1A8148FBD78E10551D0CEBFED1 /* TSUniversalLinkApiResponse.h in Headers */,
+				A4663FC0D3B2ED8EFF945F4F60196BE7 /* TSURLBuilder.h in Headers */,
+				E2613614B57B25724418002B04D316BD /* TSURLEncoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B9496A453DFF645334BEA7976B8A47E /* TapstreamMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FAD39C6A5CA55B4BAECC76BE27ED6E /* Build configuration list for PBXNativeTarget "TapstreamMac" */;
+			buildPhases = (
+				3892A0B0EAAF64123A8796C57FC07291 /* Sources */,
+				548C7DD4E49347613751E3E93F2921EE /* Frameworks */,
+				1BE63D1D9357375FCFD3645BA008B6E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapstreamMac;
+			productName = TapstreamMac;
+			productReference = 83D7F55E8BA2272A8B8793CC96BCFA39 /* libTapstreamMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF0EF4AABF7E75D221433C5CDBA4C080 /* Pods-ExampleMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8084729A847C3190BC7E96CFDB03F96 /* Build configuration list for PBXNativeTarget "Pods-ExampleMac" */;
+			buildPhases = (
+				57C8F8BFF132452E32733EB33C685CE3 /* Sources */,
+				7934F5C9626B8EECC0EC3184A746CAF0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				507B4FDC4A821C9365FFC55F8FF093BF /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleMac";
+			productName = "Pods-ExampleMac";
+			productReference = 8F7953DCF20EB3BBF83E4B9552545584 /* libPods-ExampleMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0DE7BF1697482ADE35760AE170ED9107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0EF4AABF7E75D221433C5CDBA4C080 /* Pods-ExampleMac */,
+				5B9496A453DFF645334BEA7976B8A47E /* TapstreamMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3892A0B0EAAF64123A8796C57FC07291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D704612012B4BE7F5CF647D180E66A9 /* TapstreamMac-dummy.m in Sources */,
+				3FC6840A18B7D0F40B5E05705EEFA838 /* TSConfig.m in Sources */,
+				6901D1D7B65779F079FFA66EAD3DD297 /* TSDefaultAppEventSource.m in Sources */,
+				F9F5BF2B13B90CCEF53108607E3AEC3C /* TSDefaultCoreListener.m in Sources */,
+				C95172BC673AD8A9443485B4C37BC797 /* TSDefaultFireEventStrategy.m in Sources */,
+				7B12BA134FBF0C326073B5D6A0967DBA /* TSDefaultHttpClient.m in Sources */,
+				7E1FFD7AB14834C32838313DFA83F50D /* TSDefaultPersistentStorage.m in Sources */,
+				264FD8D7EAEDD2AEFA211CF55935FD97 /* TSDefaultPlatform.m in Sources */,
+				CEC0063C8DCE3CE369990D34DD25BE28 /* TSError.m in Sources */,
+				EE7177EDF7C04FE350244A30BA7B8459 /* TSEvent.m in Sources */,
+				C1B39FD1DECB337B433615563DDF9554 /* TSFireEventDelegate.m in Sources */,
+				568814CCCEB7EBED777B317917CEAA48 /* TSLogging.m in Sources */,
+				69F195CBEEE35A3D6B86ECAB521EE3F9 /* TSRequestData.m in Sources */,
+				5AB82D2355641BEC2E91B31996EA2CAF /* TSResponse.m in Sources */,
+				67B5C0A5E46B030B8B6CCDFE7AE589A0 /* TSStartupDelegate.m in Sources */,
+				D8E0102085B7C8F68CFDAEAC38DFF233 /* TSTapstream.m in Sources */,
+				CC5107A9C6829A0FB60035C1D1D4DEF4 /* TSTimelineApiResponse.m in Sources */,
+				FF407C53F8017D975AC5C4A9FC353B5F /* TSTimelineLookupDelegate.m in Sources */,
+				09AC42DA1492A546916A2C71859D35F4 /* TSUniversalLinkApiResponse.m in Sources */,
+				341CDEEC7DA371D262B74E81B4109F57 /* TSURLBuilder.m in Sources */,
+				CE2A6132CA94A18CCCC80D2EA6194D39 /* TSURLEncoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8F8BFF132452E32733EB33C685CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26A79338BEE939CDB3F7D53920ADA70 /* Pods-ExampleMac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		507B4FDC4A821C9365FFC55F8FF093BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapstreamMac;
+			target = 5B9496A453DFF645334BEA7976B8A47E /* TapstreamMac */;
+			targetProxy = 54738B7A25568FFAAD047AACAB9330F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		295DCB66E32958E93BCCCDCA6BFB2274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165771846148CBEF6D0A41C530D597F6 /* TapstreamMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TapstreamMac/TapstreamMac-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48E8F751216CE3239CF939BCAF9544EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB7582BA3E9907415367E231AC42497 /* Pods-ExampleMac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68409A7CC907C65CC4632EA7B8F024D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B5527E718D62AA611740378AF093618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63566BC0604A550EC616AD45BDB8C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165771846148CBEF6D0A41C530D597F6 /* TapstreamMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TapstreamMac/TapstreamMac-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEBA72FCED61D60EDD777CBD0480E23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EBCFCC57A3BBC45A9319F80E4D1712 /* Pods-ExampleMac.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68409A7CC907C65CC4632EA7B8F024D8 /* Debug */,
+				B5527E718D62AA611740378AF093618F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FAD39C6A5CA55B4BAECC76BE27ED6E /* Build configuration list for PBXNativeTarget "TapstreamMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63566BC0604A550EC616AD45BDB8C16 /* Debug */,
+				295DCB66E32958E93BCCCDCA6BFB2274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8084729A847C3190BC7E96CFDB03F96 /* Build configuration list for PBXNativeTarget "Pods-ExampleMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E8F751216CE3239CF939BCAF9544EF /* Debug */,
+				DEBA72FCED61D60EDD777CBD0480E23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

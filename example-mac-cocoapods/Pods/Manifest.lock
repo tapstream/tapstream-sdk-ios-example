@@ -1,0 +1,14 @@
+PODS:
+  - TapstreamMac (3.0.0):
+    - TapstreamMac/Core (= 3.0.0)
+  - TapstreamMac/Core (3.0.0)
+
+DEPENDENCIES:
+  - TapstreamMac
+
+SPEC CHECKSUMS:
+  TapstreamMac: dfcdb94379c8a627b8d0b70c75281a32401c1dfc
+
+PODFILE CHECKSUM: 69ebdb2045b334b3ee63323f93cf3326d745695a
+
+COCOAPODS: 1.0.1
